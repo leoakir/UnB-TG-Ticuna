@@ -1,0 +1,1141 @@
+Dictionary cleaning report
+============================================================
+
+Input:  9200 entries
+Output: 9154 entries
+
+1. HARD-EXCLUDED (pure grammatical explanation, not a translation): 26
+------------------------------------------------------------
+  id=    3  tca='a'                   es='Se usa para conectar sustantivos, pronombres y adjetivos en tiempo presente o futuro.'
+  id=   64  tca='-ãcüma'              es='Indica acción continua.'
+  id=  116  tca='ai'                  es='Indica cualquier tipo de tigre, jaguar o leopardo.'
+  id=  587  tca='-chaü̃'              es='Indica deseo de hacer algo.'
+  id=  981  tca='-cü'                 es='Se usa para formar sustantivos.'
+  id= 1227  tca='-e'                  es='Se añade al verbo para indicar plural.'
+  id= 1238  tca='-ẽẽ'                 es='Indica causativo.'
+  id= 1248  tca='-era'                es='Indica comparación.'
+  id= 1249  tca='-ẽra'                es='Indica comparación.'
+  id= 1285  tca='ga'                  es='Se usa para conectar sustantivos, adjetivos y pronombres.'
+  id= 1389  tca='-gü'                 es='Se añade al verbo para indicar plural.'
+  id= 1392  tca='i-'                  es='Indica la clase de verbos que empiezan con tono bajo.'
+  id= 1394  tca='í-'                  es='Indica la clase de verbos que empiezan con tono alto.'
+  id= 1396  tca='í-'                  es='Indica aspecto progresivo.'
+  id= 2026  tca='-ira'                es='Indica comparación.'
+  id= 2030  tca='-ĩra'                es='Indica comparación.'
+  id= 7390  tca='nüxü̃ naxuneta'      es='señalar, indicar'
+  id= 8033  tca='-püxcüna'            es='Indica que una acción se hace cierto número de veces.'
+  id= 8283  tca='taunecüãx̃́ ü̃'      es='Indica que tiene cierta edad.'
+  id= 8959  tca='wü̃́xüchiruxü̃'      es='Indica una herramienta puntiaguda para marcar.'
+  id= 8961  tca='-xe'                 es='Se añade al verbo para formar sustantivos.'
+  id= 8963  tca='-xira'               es='Indica comparación.'
+  id= 8967  tca='-xĩra'               es='Indica comparación'
+  id= 8968  tca='-xü̃'                es='Se añade al verbo para formar sustantivos.'
+  id= 8969  tca='-xü̃ne'              es='Se añade al verbo para formar sustantivos.'
+  id= 8971  tca='ya'                  es='Se usa para conectar sustantivos, adjetivos y pronombres en oraciones en tiempo presente o futuro.'
+
+2. SPECIES-ID ENTRIES KEPT AS-IS (per instruction, not excluded): 20
+------------------------------------------------------------
+  ids: [443, 589, 788, 807, 921, 933, 1263, 2034, 6032, 7677, 7833, 8121, 8301, 8448, 8515, 8563, 8564, 8670, 9126, 9180]
+
+3. PARENTHETICAL STRIPPED (translation kept, clarifying aside removed): 359
+------------------------------------------------------------
+  id=66
+    es: 'isango (especie de arácnido pequeño que da comezón)' -> 'isango'
+    pt: 'isango (espécie de pequeno aracnídeo que causa coceira)' -> 'isango'
+  id=149
+    es: 'meter, sumergir, echar adentro (profundamente en agua)' -> 'meter, sumergir, echar adentro'
+    pt: 'mergulhar, mergulhar, mergulhar (profundamente na água)' -> 'mergulhar, mergulhar, mergulhar'
+  id=175
+    es: 'altar (para quemar ofrendas a Dios)' -> 'altar'
+    pt: 'altar (para queimar ofertas a Deus)' -> 'altar'
+  id=235
+    es: 'añuje caspi (árbol cuya madera se usa para hacer canoas)' -> 'añuje caspi'
+    pt: 'añuje caspi (árvore cuja madeira é usada para fazer canoas)' -> 'añuje caspi'
+  id=322
+    es: 'relámpago (lejano al atardecer)' -> 'relámpago'
+    pt: 'relâmpago (longe ao pôr do sol)' -> 'relâmpago'
+  id=343
+    es: 'avispa (especie que llena huecos con barro)' -> 'avispa'
+    pt: 'vespa (espécie que preenche buracos com lama)' -> 'vespa'
+  id=347
+    es: 'bijao (hojas grandes que se utilizan para envolver y cocinar pescado salado, tamales y juanes)' -> 'bijao'
+    pt: 'bijao (folhas grandes usadas para embrulhar e cozinhar peixe salgado, tamales e juanes)' -> 'bijao'
+  id=378
+    es: 'bora (una etnia de la selva)' -> 'bora'
+    pt: 'bora (uma etnia da selva)' -> 'bora'
+  id=404
+    es: 'echar (líquido en una botella), embotellar (líquido)' -> 'echar, embotellar'
+    pt: 'derramar (líquido em uma garrafa), engarrafamento (líquido)' -> 'derramar, engarrafamento'
+  id=409
+    es: 'bocina (hecha de corteza de árbol para fiesta ticuna)' -> 'bocina'
+    pt: 'chifre (feito de casca de árvore para festa ticuna)' -> 'chifre'
+  id=436
+    es: 'burbujas (que salen del agua en terreno pantanoso)' -> 'burbujas'
+    pt: 'bolhas (que saem da água em terreno pantanoso)' -> 'bolhas'
+  id=437
+    es: 'quinilla (especie de árbol de madera dura)' -> 'quinilla'
+    pt: 'quinilla (espécie de árvore de madeira dura)' -> 'quinilla'
+  id=442
+    es: 'tangana (palo largo para empujar la canoa cuando va río arriba)' -> 'tangana'
+    pt: 'tangana (vara longa para empurrar a canoa quando vai rio acima)' -> 'tangana'
+  id=461
+    es: 'estar humoso (al quemar la chacra)' -> 'estar humoso'
+    pt: 'estar fumegante (ao queimar a chacra)' -> 'estar fumegante'
+  id=500
+    es: 'cartucho, carga (de arma de fuego)' -> 'cartucho, carga'
+    pt: 'cartucho, carga (de arma de fogo)' -> 'cartucho, carga'
+  id=506
+    es: 'caucho, jebe, shiringa (especie de árbol)' -> 'caucho, jebe, shiringa'
+    pt: 'borracha, jebe, shiringa (espécie de árvore)' -> 'borracha, jebe, shiringa'
+  id=569
+    es: 'brea, savia (que sirve para alumbrar)' -> 'brea, savia'
+    pt: 'brea, seiva (que serve para iluminar)' -> 'brea, seiva'
+  id=620
+    es: 'huacapú (árbol de madera dura que sirve para horcones)' -> 'huacapú'
+    pt: 'Huacapu (árvore de madeira dura que serve para horcones)' -> 'Huacapu'
+  id=626
+    es: 'shivé (bebida no fermentada preparada con fariña)' -> 'shivé'
+    pt: 'shivé (bebida não fermentada preparada com farinha)' -> 'shivé'
+  id=641
+    es: 'añuje (regionalismo), agutí (especie de animal silvestre)' -> 'añuje, agutí'
+    pt: 'añuje (regionalismo), agutí (espécie de animal silvestre)' -> 'añuje, agutí'
+  id=654
+    es: 'shiringa, caucho, jebe (especie de árbol)' -> 'shiringa, caucho, jebe'
+    pt: 'shiringa, borracha, jebe (espécie de árvore)' -> 'shiringa, borracha, jebe'
+  id=660
+    es: 'uvilla (fruto parecido a la uva)' -> 'uvilla'
+    pt: 'uvilla (fruto semelhante à uva)' -> 'uvilla'
+  id=661
+    es: 'espintana (árbol cuya madera se usa para armazón del techo de las casas)' -> 'espintana'
+    pt: 'espintana (árvore cuja madeira é usada para estrutura do telhado das casas)' -> 'espintana'
+  id=720
+    es: 'estar desordenados, estar en caos (cosas)' -> 'estar desordenados, estar en caos'
+    pt: 'estar desordenado, estar em caos (coisas)' -> 'estar desordenado, estar em caos'
+  id=723
+    es: 'contestar (de mala manera), responder (insolentemente), replicar (groseramente)' -> 'contestar, responder, replicar'
+    pt: 'responder (de forma incorreta), responder (insolentemente), replicar (grosseiramente)' -> 'responder, responder, replicar'
+  id=751
+    es: 'catalán, martín pescador (especie de ave)' -> 'catalán, martín pescador'
+    pt: 'catalão, martín pescador (espécie de ave)' -> 'catalão, martín pescador'
+  id=760
+    es: 'polvo (blanco como harina y azúcar)' -> 'polvo'
+    pt: 'pó (branco como farinha e açúcar)' -> 'pó'
+  id=763
+    es: 'pichico (especie de mono pequeño de color negro)' -> 'pichico'
+    pt: 'pichico (espécie de pequeno macaco de cor preta)' -> 'pichico'
+  id=781
+    es: 'para mí, a mí (a mi parecer)' -> 'para mí, a mí'
+    pt: 'para mim, para mim (na minha opinião)' -> 'para mim, para mim'
+  id=803
+    es: 'sarna, pinta (enfermedad de la piel)' -> 'sarna, pinta'
+    pt: 'sarna, pinta (doença da pele)' -> 'sarna, pinta'
+  id=833
+    es: 'camucamu (especie de arbusto con fruto rojo)' -> 'camucamu'
+    pt: 'camucamu (espécie de arbusto com fruto vermelho)' -> 'camucamu'
+  id=838
+    es: 'nacanaca (especie de culebra acuática venenosa)' -> 'nacanaca'
+    pt: 'Nacanaca (espécie de cobra aquática venenosa)' -> 'Nacanaca'
+  id=856
+    es: 'papa (especie que se usa para hacer masato)' -> 'papa'
+    pt: 'batata (espécie usada para fazer masato)' -> 'batata'
+  id=871
+    es: 'Caballo Cocha (ciudad fronteriza del Perú)' -> 'Caballo Cocha'
+    pt: 'Caballo Cocha (cidade fronteiriça do Peru)' -> 'Caballo Cocha'
+  id=893
+    es: 'comoquiera, no importa (lit. depende de usted)' -> 'comoquiera, no importa'
+    pt: 'comoquer, não importa (lit. depende de você)' -> 'comoquer, não importa'
+  id=929
+    es: 'cumaceva (árbol de madera dura que se usa para hacer lanzas)' -> 'cumaceva'
+    pt: 'cumaceva (árvore de madeira dura usada para fazer lanças)' -> 'cumaceva'
+  id=938
+    es: 'afaninga (especie de culebra no venenosa)' -> 'afaninga'
+    pt: 'afaninga (espécie de cobra não venenosa)' -> 'afaninga'
+  id=945
+    es: 'chullachaqui (ser mitológico de pies desiguales)' -> 'chullachaqui'
+    pt: 'chullachaqui (ser mitológico de pés desiguais)' -> 'chullachaqui'
+  id=955
+    es: 'unchala (especie de ave que canta al amanecer)' -> 'unchala'
+    pt: 'unchala (espécie de pássaro que canta ao amanhecer)' -> 'unchala'
+  id=962
+    es: 'sangre de grado (resina de un árbol que se usa para pintar remos y como medicina)' -> 'sangre de grado'
+    pt: 'sangue de grau (resina de uma árvore usada para pintar remos e como remédio)' -> 'sangue de grau'
+  id=966
+    es: '¡adiós!, ¡hasta luego! (a una sola persona)' -> '¡adiós!, ¡hasta luego!'
+    pt: 'até logo! (para uma pessoa)' -> 'até logo!'
+  id=982
+    es: 'residente de, oriundo de (cierto lugar)' -> 'residente de, oriundo de'
+    pt: 'residente de, oriundo de (certo lugar)' -> 'residente de, oriundo de'
+  id=995
+    es: 'Cushillo Cocha (comunidad ticuna fronteriza del Perú)' -> 'Cushillo Cocha'
+    pt: 'Cushillo Cocha (comunidade ticuna fronteiriça do Peru)' -> 'Cushillo Cocha'
+  id=998
+    es: 'este, esta (cosa de género masculino)' -> 'este, esta'
+    pt: 'este, esta (coisa de gênero masculino)' -> 'este, esta'
+  id=1001
+    es: 'éste, ésta, esto (persona o cosa de género masculino)' -> 'éste, ésta, esto'
+    pt: 'este, esta, isto (pessoa ou coisa de gênero masculino)' -> 'este, esta, isto'
+  id=1014
+    es: 'anaconda, yacumama (especie de boa grande)' -> 'anaconda, yacumama'
+    pt: 'anaconda, yacumama (espécie de boa grande)' -> 'anaconda, yacumama'
+  id=1095
+    es: 'caña brava (se utiliza para hacer flechas)' -> 'caña brava'
+    pt: 'cana-de-açúcar (usado para fazer flechas)' -> 'cana-de-açúcar'
+  id=1141
+    es: 'este, esta (cosa de género masculino)' -> 'este, esta'
+    pt: 'este, esta (coisa de gênero masculino)' -> 'este, esta'
+  id=1143
+    es: 'estar viniendo, estar acercándose (bote con motor, moto, carro, avión)' -> 'estar viniendo, estar acercándose'
+    pt: 'estar vindo, estar se aproximando (barco a motor, moto, carro, avião)' -> 'estar vindo, estar se aproximando'
+  id=1148
+    es: 'casabe, beshú (pan hecho de yuca)' -> 'casabe, beshú'
+    pt: 'casabe, beshú (pão feito de mandioca)' -> 'casabe, beshú'
+  id=1220
+    es: 'cosa que cubre (como cortina o tabla)' -> 'cosa que cubre'
+    pt: 'coisa que cobre (como cortina ou tabela)' -> 'coisa que cobre'
+  id=1226
+    es: 'huito (especie de árbol cuyo fruto se usa para pintar la piel de color negro)' -> 'huito'
+    pt: 'huito (espécie de árvore cujo fruto é usado para pintar a pele de cor preta)' -> 'huito'
+  id=1264
+    es: 'soga (para hacer una línea recta)' -> 'soga'
+    pt: 'corda (para fazer uma linha reta)' -> 'corda'
+  id=1266
+    es: 'perico, pihuicho (especie de loro pequeño)' -> 'perico, pihuicho'
+    pt: 'perico, pihuicho (espécie de papagaio pequeno)' -> 'perico, pihuicho'
+  id=1302
+    es: 'chimbador, llevollevo (el que trabaja haciendo cruzar el río en canoa)' -> 'chimbador, llevollevo'
+    pt: 'chimbador, llevollevo (aquele que trabalha fazendo atravessar o rio em canoa)' -> 'chimbador, llevollevo'
+  id=1305
+    es: 'choza, tambo (para tostar la fariña)' -> 'choza, tambo'
+    pt: 'cabana, barraco (para assar a farinha)' -> 'cabana, barraco'
+  id=1314
+    es: 'ese, esa, aquel, aquella (persona de género masculino)' -> 'ese, esa, aquel, aquella'
+    pt: 'esse, essa, aquele, aquela (pessoa de gênero masculino)' -> 'esse, essa, aquele, aquela'
+  id=1315
+    es: 'ese, esa, aquel, aquella (cosa de género masculino)' -> 'ese, esa, aquel, aquella'
+    pt: 'esse, essa, aquele, aquela (coisa de gênero masculino)' -> 'esse, essa, aquele, aquela'
+  id=1318
+    es: 'altar (para quemar ofrenda a Dios)' -> 'altar'
+    pt: 'altar (para queimar oferta a Deus)' -> 'altar'
+  id=1324
+    es: 'ese, esa, aquel, aquella (cosa de género masculino)' -> 'ese, esa, aquel, aquella'
+    pt: 'esse, essa, aquele, aquela (coisa de gênero masculino)' -> 'esse, essa, aquele, aquela'
+  id=1326
+    es: 'ese, esa, aquel, aquella (persona o cosa de género masculino)' -> 'ese, esa, aquel, aquella'
+    pt: 'aquele, aquela, esse, essa (pessoa ou coisa de gênero masculino)' -> 'aquele, aquela, esse, essa'
+  id=1330
+    es: 'curare (veneno para dardos de cerbatana)' -> 'curare'
+    pt: 'curare (veneno para dardos de serpente)' -> 'curare'
+  id=1333
+    es: 'altar (para quemar ofrenda a Dios)' -> 'altar'
+    pt: 'altar (para queimar oferta a Deus)' -> 'altar'
+  id=1391
+    es: 'y (conecta sustantivos, adjetivos y pronombres)' -> 'y'
+    pt: 'y (conecta substantivos, adjetivos e pronomes)' -> 'y'
+  id=1399
+    es: 'tijera, tijeral (del techo de una casa)' -> 'tijera, tijeral'
+    pt: 'tesoura, tesoura (do telhado de uma casa)' -> 'tesoura, tesoura'
+  id=1440
+    es: '(Brasil) Indica un documento de identidad. Colombia:' -> 'Indica un documento de identidad. Colombia:'
+    pt: '(Brasil) Indica um documento de identidade. Colômbia:' -> 'Indica um documento de identidade. Colômbia:'
+  id=1526
+    es: 'poner (en posición vertical), hacer parar' -> 'poner, hacer parar'
+    pt: 'colocar (em posição vertical), fazer parar' -> 'colocar, fazer parar'
+  id=1573
+    es: 'sacar (moviéndolo de un lado a otro)' -> 'sacar'
+    pt: 'tirar (movendo-o de um lado para o outro)' -> 'tirar'
+  id=1585
+    es: 'poner (en orden), ordenar (complemento plural)' -> 'poner, ordenar'
+    pt: 'colocar (em ordem), ordenar (complemento plural)' -> 'colocar, ordenar'
+  id=1607
+    es: 'limpiar, secar (con trapo seco)' -> 'limpiar, secar'
+    pt: 'limpar, secar (com um pano seco)' -> 'limpar, secar'
+  id=1610
+    es: 'secar (las manos de otra persona)' -> 'secar'
+    pt: 'secar (as mãos de outra pessoa)' -> 'secar'
+  id=1660
+    es: 'marcar (línea recta con una soga)' -> 'marcar'
+    pt: 'marcação (linha reta com uma corda)' -> 'marcação'
+  id=1692
+    es: 'lavar (las manos de otra persona)' -> 'lavar'
+    pt: 'lavar (as mãos de outra pessoa)' -> 'lavar'
+  id=1756
+    es: 'quedar (boca abajo, sujeto inanimado)' -> 'quedar'
+    pt: 'ficar (de cabeça para baixo, sujeito inanimado)' -> 'ficar'
+  id=1801
+    es: 'salir, partir (de viaje, sujeto singular)' -> 'salir, partir'
+    pt: 'sair, partir (de viagem, sujeito singular)' -> 'sair, partir'
+  id=1833
+    es: 'hacer entrar, meter (complemento plural animado)' -> 'hacer entrar, meter'
+    pt: 'fazer entrar, meter (complemento plural animado)' -> 'fazer entrar, meter'
+  id=1896
+    es: 'hacer entrar, meter (complemento singular animado)' -> 'hacer entrar, meter'
+    pt: 'fazer entrar, meter (complemento singular animado)' -> 'fazer entrar, meter'
+  id=1931
+    es: 'retroceder (un paso), dar un paso atrás' -> 'retroceder, dar un paso atrás'
+    pt: 'recuar (um passo), dar um passo para trás' -> 'recuar, dar um passo para trás'
+  id=1963
+    es: 'ir (de regreso), regresar, volver (sujeto plural)' -> 'ir, regresar, volver'
+    pt: 'ir (de volta), voltar, voltar (sujeito plural)' -> 'ir, voltar, voltar'
+  id=1967
+    es: 'ir (de regreso), regresar, volver (sujeto singular)' -> 'ir, regresar, volver'
+    pt: 'ir (de volta), voltar, voltar (sujeito singular)' -> 'ir, voltar, voltar'
+  id=2017
+    es: 'Ipi (personaje mitológico que según la tradición es el menor de los dos hermanos fundadores de los ticuna)' -> 'Ipi'
+    pt: 'Ipi (personagem mitológico que segundo a tradição é o menor dos dois irmãos fundadores dos ticuna)' -> 'Ipi'
+  id=2021
+    es: 'roto, quebrado, hecho añicos (objetos de vidrio)' -> 'roto, quebrado, hecho añicos'
+    pt: 'quebrado, quebrado, esmagado (objetos de vidro)' -> 'quebrado, quebrado, esmagado'
+  id=2198
+    es: 'arena caspi (especie de árbol que sirve para madera)' -> 'arena caspi'
+    pt: 'areia caspi (espécie de árvore que serve para madeira)' -> 'areia caspi'
+  id=2200
+    es: 'marupá (especie de árbol que sirve para madera)' -> 'marupá'
+    pt: 'marupá (espécie de árvore que serve para madeira)' -> 'marupá'
+  id=2361
+    es: 'guacamayo caspi (especie de árbol de madera comerciable)' -> 'guacamayo caspi'
+    pt: 'guacamaia caspi (espécie de árvore de madeira comercializável)' -> 'guacamaia caspi'
+  id=2404
+    es: 'uña de gato (bejuco de corteza medicinal)' -> 'uña de gato'
+    pt: 'unha de gato (bejuco de casca medicinal)' -> 'unha de gato'
+  id=2407
+    es: 'chapo (bebida preparada de plátanos maduros)' -> 'chapo'
+    pt: 'chapo (bebida preparada de bananas maduras)' -> 'chapo'
+  id=2418
+    es: 'mandioca (especie de yuca amarilla que se come tostada)' -> 'mandioca'
+    pt: 'mandioca (espécie de mandioca amarela que se come torrada)' -> 'mandioca'
+  id=2422
+    es: 'jengibre (planta que se utiliza para hacer bebidas)' -> 'jengibre'
+    pt: 'gengibre (planta usada para fazer bebidas)' -> 'gengibre'
+  id=2444
+    es: 'frondoso (de muchas ramas)' -> 'frondoso'
+    pt: 'Contudo todas as espécies (de frutos e prazeres).' -> 'Contudo todas as espécies.'
+  id=2458
+    es: 'guama (vegetación que cubre los lagos)' -> 'guama'
+    pt: 'guaiaco (vegetação que cobre os lagos)' -> 'guaiaco'
+  id=2461
+    es: 'lechuza, urcututo (especie de ave nocturna)' -> 'lechuza, urcututo'
+    pt: 'coruja, curututo (espécie de ave noturna)' -> 'coruja, curututo'
+  id=2475
+    es: 'llevollevo, chimbador (el que trabaja haciendo cruzar el río en canoa)' -> 'llevollevo, chimbador'
+    pt: 'llevollevo, chimbador (o que trabalha fazendo atravessar o rio em canoa)' -> 'llevollevo, chimbador'
+  id=2679
+    es: 'ser delicioso, ser rico, ser agradable (alimento)' -> 'ser delicioso, ser rico, ser agradable'
+    pt: 'ser delicioso, ser rico, ser agradável (alimento)' -> 'ser delicioso, ser rico, ser agradável'
+  id=2713
+    es: 'pasar (por un lugar, sujeto plural)' -> 'pasar'
+    pt: 'passar (por um lugar, sujeito plural)' -> 'passar'
+  id=2741
+    es: 'estar resbaloso (superficie mojada o viscosa)' -> 'estar resbaloso'
+    pt: 'ser escorregadio (superfície molhada ou viscosa)' -> 'ser escorregadio'
+  id=2756
+    es: 'orilla (de un río, de un lago)' -> 'orilla'
+    pt: 'margem (de um rio, de um lago)' -> 'margem'
+  id=2765
+    es: 'comportamiento, costumbre, hábito (manera de vivir)' -> 'comportamiento, costumbre, hábito'
+    pt: 'comportamento, costume, hábito (modo de vida)' -> 'comportamento, costume, hábito'
+  id=2783
+    es: 'mirar (hacia arriba), alzar (la cabeza)' -> 'mirar, alzar'
+    pt: 'olhar (para cima), levantar (a cabeça)' -> 'olhar, levantar'
+  id=2806
+    es: 'ser (de tal tamaño, indicando con la mano)' -> 'ser'
+    pt: 'ser (de tal tamanho, indicando com a mão)' -> 'ser'
+  id=2904
+    es: 'pensar, reflexionar (sin tomar una decisión)' -> 'pensar, reflexionar'
+    pt: 'pensar, refletir (sem tomar uma decisão)' -> 'pensar, refletir'
+  id=2949
+    es: 'próximo, entrante (cosa de género masculino)' -> 'próximo, entrante'
+    pt: 'próximo, entrante (coisa de gênero masculino)' -> 'próximo, entrante'
+  id=3063
+    es: 'quejarse, presentar queja (ante otra persona)' -> 'quejarse, presentar queja'
+    pt: 'queixar-se, reclamar (de outra pessoa)' -> 'queixar-se, reclamar'
+  id=3071
+    es: 'hacer pacto, pactar (con otra persona)' -> 'hacer pacto, pactar'
+    pt: 'fazer pacto, pactuar (com outra pessoa)' -> 'fazer pacto, pactuar'
+  id=3074
+    es: 'toparse, chocar (con algo o alguien)' -> 'toparse, chocar'
+    pt: 'bater, chocar (com algo ou alguém)' -> 'bater, chocar'
+  id=3094
+    es: 'estar bien (de salud, sujeto singular)' -> 'estar bien'
+    pt: 'estar bem (de saúde, sujeito singular)' -> 'estar bem'
+  id=3180
+    es: 'cambiar (la posición de la punta)' -> 'cambiar'
+    pt: 'mudar (a posição da ponta)' -> 'mudar'
+  id=3190
+    es: 'pelar (un animal), quitar (la piel de un animal)' -> 'pelar, quitar'
+    pt: 'descascar (um animal), remover (a pele de um animal)' -> 'descascar, remover'
+  id=3254
+    es: 'meter, hacer entrar (complemento plural animado)' -> 'meter, hacer entrar'
+    pt: 'meter, fazer entrar (complemento plural animado)' -> 'meter, fazer entrar'
+  id=3286
+    es: 'cazar (con cerbatana o escopeta)' -> 'cazar'
+    pt: 'caçar (com uma espingarda ou uma espingarda)' -> 'caçar'
+  id=3321
+    es: 'agujerear, hacer hueco (con broca o berbiquí)' -> 'agujerear, hacer hueco'
+    pt: 'furar, fazer buraco (com broca ou broca)' -> 'furar, fazer buraco'
+  id=3406
+    es: 'poner (medicamento en el ojo), medicar, medicinar (el ojo)' -> 'poner, medicar, medicinar'
+    pt: 'colocar (medicamento no olho), medicar, medicinar (o olho)' -> 'colocar, medicar, medicinar'
+  id=3419
+    es: 'disparar (con arco o con honda)' -> 'disparar'
+    pt: 'atirar (com arco ou estilingue)' -> 'atirar'
+  id=3562
+    es: 'inclinarse (hasta tocar el suelo con la frente)' -> 'inclinarse'
+    pt: 'inclinar-se (até a testa tocar o chão)' -> 'inclinar-se'
+  id=3665
+    es: 'partir (en dos partes con cincel)' -> 'partir'
+    pt: 'partir (em duas partes com cinzel)' -> 'partir'
+  id=3713
+    es: 'no pasarle nada (a alguien a pesar de haberse caído)' -> 'no pasarle nada'
+    pt: 'nada acontecer (a alguém, apesar de ter caído)' -> 'nada acontecer'
+  id=3719
+    es: 'hacer cambiar (de opinión), desviar (el pensamiento)' -> 'hacer cambiar, desviar'
+    pt: 'fazer mudar (de opinião), desviar (o pensamento)' -> 'fazer mudar, desviar'
+  id=3721
+    es: 'falsear, tergiversar (lo que otra persona dice)' -> 'falsear, tergiversar'
+    pt: 'falsear, tergiversar (o que outra pessoa diz)' -> 'falsear, tergiversar'
+  id=3797
+    es: 'hacer hueco (con berbiquí), agujerear (con taladro), taladrar' -> 'hacer hueco, agujerear, taladrar'
+    pt: 'fazer buraco (com broca), furar (com broca), furar' -> 'fazer buraco, furar, furar'
+  id=3830
+    es: 'hacer volver, hacer regresar (complemento plural)' -> 'hacer volver, hacer regresar'
+    pt: 'fazer voltar, fazer voltar (complemento plural)' -> 'fazer voltar, fazer voltar'
+  id=3838
+    es: 'botar, echar, arrojar (complemento plural)' -> 'botar, echar, arrojar'
+    pt: 'botar, jogar, jogar fora (complemento plural)' -> 'botar, jogar, jogar fora'
+  id=3941
+    es: 'aconsejar, exhortar (a hacer algo bueno)' -> 'aconsejar, exhortar'
+    pt: 'aconselhar, exortar (a fazer algo bom)' -> 'aconselhar, exortar'
+  id=3943
+    es: 'presionar, seducir (a hacer algo malo)' -> 'presionar, seducir'
+    pt: 'pressionar, seduzir (para fazer algo ruim)' -> 'pressionar, seduzir'
+  id=3979
+    es: 'meter, hacer entrar (complemento singular animado)' -> 'meter, hacer entrar'
+    pt: 'meter, fazer entrar (complemento singular animado)' -> 'meter, fazer entrar'
+  id=4007
+    es: 'construir, edificar (casa para otra persona)' -> 'construir, edificar'
+    pt: 'construir, edificar (casa para outra pessoa)' -> 'construir, edificar'
+  id=4112
+    es: 'mover (la cabeza para expresar negación, desacuerdo o desprecio)' -> 'mover'
+    pt: 'mover (a cabeça para expressar negação, desacordo ou desprezo)' -> 'mover'
+  id=4132
+    es: 'estar borrachos, estar embriagados (sujeto plural)' -> 'estar borrachos, estar embriagados'
+    pt: 'estar bêbados, estar embriagados (sujeito plural)' -> 'estar bêbados, estar embriagados'
+  id=4142
+    es: 'ser insípido (por falta de sal o azúcar)' -> 'ser insípido'
+    pt: 'ser insípido (por falta de sal ou açúcar)' -> 'ser insípido'
+  id=4166
+    es: 'carecer (de leche), no tener (leche)' -> 'carecer, no tener'
+    pt: 'carecer (de leite), não ter (leite)' -> 'carecer, não ter'
+  id=4172
+    es: 'carecer (de compañero), no tener (compañero)' -> 'carecer, no tener'
+    pt: 'carecer (de companheiro), não ter (companheiro)' -> 'carecer, não ter'
+  id=4177
+    es: 'carecer (de ropa), no tener (ropa)' -> 'carecer, no tener'
+    pt: 'carecer (de roupas), não ter (roupas)' -> 'carecer, não ter'
+  id=4196
+    es: 'cultivar (lo plantado), limpiar (la chacra)' -> 'cultivar, limpiar'
+    pt: 'cultivar (o plantado), limpar (a fazenda)' -> 'cultivar, limpar'
+  id=4209
+    es: 'que hace aparecer (cosa perdida por mucho tiempo)' -> 'que hace aparecer'
+    pt: 'que faz aparecer (coisa perdida por muito tempo)' -> 'que faz aparecer'
+  id=4226
+    es: 'ser (del pasado), pertenecer (al pasado)' -> 'ser, pertenecer'
+    pt: 'ser (do passado), pertencer (ao passado)' -> 'ser, pertencer'
+  id=4257
+    es: 'voltearse, ponerse (boca abajo)' -> 'voltearse, ponerse'
+    pt: 'virar, colocar (de cabeça para baixo)' -> 'virar, colocar'
+  id=4259
+    es: 'flotar (en canoa para picar un pez)' -> 'flotar'
+    pt: 'flutuar (em canoa para picar um peixe)' -> 'flutuar'
+  id=4266
+    es: 'parecer enojado (lit. tener cara de enojo)' -> 'parecer enojado'
+    pt: 'parecer irritado (lit. ter cara de raiva)' -> 'parecer irritado'
+  id=4274
+    es: 'mirar (con enojo o con odio)' -> 'mirar'
+    pt: 'olhar (com raiva ou ódio)' -> 'olhar'
+  id=4278
+    es: 'ser bajo, ser chato (de estatura)' -> 'ser bajo, ser chato'
+    pt: 'ser baixo, ser chato (de estatura)' -> 'ser baixo, ser chato'
+  id=4320
+    es: 'ovillo (de fibra de chambira para hacer hamaca)' -> 'ovillo'
+    pt: 'bola (de fibra de chambira para fazer rede)' -> 'bola'
+  id=4322
+    es: 'casa, morada, domicilio, hogar (de él o de ella)' -> 'casa, morada, domicilio, hogar'
+    pt: 'casa, morada, domicílio, lar (dele ou dela)' -> 'casa, morada, domicílio, lar'
+  id=4346
+    es: 'varadero (camino que va entre dos ríos)' -> 'varadero'
+    pt: 'varadero (caminho que vai entre dois rios)' -> 'varadero'
+  id=4368
+    es: 'estar puesto (poste en un hueco)' -> 'estar puesto'
+    pt: 'estar colocado (poste em um buraco)' -> 'estar colocado'
+  id=4440
+    es: 'reírse, ponerse a reír (sujeto plural)' -> 'reírse, ponerse a reír'
+    pt: 'rir, começar a rir (sujeito plural)' -> 'rir, começar a rir'
+  id=4444
+    es: 'reírse, ponerse a reír (sujeto singular)' -> 'reírse, ponerse a reír'
+    pt: 'rir, começar a rir (sujeito singular)' -> 'rir, começar a rir'
+  id=4544
+    es: 'estar contento (lit. tener cara feliz)' -> 'estar contento'
+    pt: 'estar contente (lit. ter cara feliz)' -> 'estar contente'
+  id=4632
+    es: '(Colombia y Perú) ser muy grande' -> 'ser muy grande'
+    pt: '(Colômbia e Peru) ser muito grande' -> 'ser muito grande'
+  id=4645
+    es: 'pensar (de otra manera), tener otra manera (de pensar)' -> 'pensar, tener otra manera'
+    pt: 'pensar (de outra maneira), ter outra maneira (de pensar)' -> 'pensar, ter outra maneira'
+  id=4653
+    es: 'atorarse, atragantarse (con espina de pescado)' -> 'atorarse, atragantarse'
+    pt: 'ficar preso, engasgar (com espinha de peixe)' -> 'ficar preso, engasgar'
+  id=4682
+    es: 'cabecera (de una quebrada o de un río)' -> 'cabecera'
+    pt: 'cabeceira (de uma cachoeira ou de um rio)' -> 'cabeceira'
+  id=4695
+    es: 'pretina, faja (para sujetar carga en la frente)' -> 'pretina, faja'
+    pt: 'cintura, faixa (para segurar carga na testa)' -> 'cintura, faixa'
+  id=4745
+    es: 'tener oscura, tener negra (la piel)' -> 'tener oscura, tener negra'
+    pt: 'ter escuro, ter preto (a pele)' -> 'ter escuro, ter preto'
+  id=4787
+    es: 'poner (la mano), estirar (el brazo)' -> 'poner, estirar'
+    pt: 'colocar (a mão), esticar (o braço)' -> 'colocar, esticar'
+  id=4875
+    es: 'ribera, orilla, margen (de un río)' -> 'ribera, orilla, margen'
+    pt: 'margem, borda, margem (de um rio)' -> 'margem, borda, margem'
+  id=4892
+    es: '(Brasil) ser grande Colombia y Perú:' -> 'ser grande Colombia y Perú:'
+    pt: '(Brasil) ser grande Colômbia e Peru:' -> 'ser grande Colômbia e Peru:'
+  id=5019
+    es: 'mirar (a otro lado), apartar (la mirada)' -> 'mirar, apartar'
+    pt: 'olhar (para o outro lado), desviar (o olhar)' -> 'olhar, desviar'
+  id=5044
+    es: 'desembocadura (de lago, de quebrada o de caño)' -> 'desembocadura'
+    pt: 'desembocadura (de lago, de riacho ou de canal)' -> 'desembocadura'
+  id=5076
+    es: 'cola (de ave, de pez o de avión)' -> 'cola'
+    pt: 'cauda (de pássaro, de peixe ou de avião)' -> 'cauda'
+  id=5106
+    es: 'ser delgado (como palo o tronco)' -> 'ser delgado'
+    pt: 'ser fino (como um bastão ou tronco)' -> 'ser fino'
+  id=5136
+    es: 'fosa nasal (lit. ventana de la nariz)' -> 'fosa nasal'
+    pt: 'fossa nasal (lit. janela do nariz)' -> 'fossa nasal'
+  id=5160
+    es: 'huella (digital o de la mano)' -> 'huella'
+    pt: 'impressão digital (digital ou da mão)' -> 'impressão digital'
+  id=5176
+    es: 'negarse (a comer), no tener apetito' -> 'negarse, no tener apetito'
+    pt: 'recusar (comer), não ter apetite' -> 'recusar, não ter apetite'
+  id=5187
+    es: 'ribera, borde, costado (de un río)' -> 'ribera, borde, costado'
+    pt: 'margem, borda, lado (de um rio)' -> 'margem, borda, lado'
+  id=5219
+    es: 'caño, salida (de un lago al río)' -> 'caño, salida'
+    pt: 'cano, saída (de um lago para o rio)' -> 'cano, saída'
+  id=5252
+    es: 'pasar (por un lugar, sujeto singular)' -> 'pasar'
+    pt: 'passar (por um lugar, sujeito singular)' -> 'passar'
+  id=5285
+    es: 'espantar, ahuyentar, hacer huir (complemento plural)' -> 'espantar, ahuyentar, hacer huir'
+    pt: 'espantar, ahuyentar, hacer huir (complemento plural)' -> 'espantar, ahuyentar, hacer huir'
+  id=5315
+    es: 'pasar (las noches en diferentes sitios)' -> 'pasar'
+    pt: 'passar (as noites em lugares diferentes)' -> 'passar'
+  id=5321
+    es: 'cortar (maleza o monte con machete)' -> 'cortar'
+    pt: 'cortar (erva daninha ou mato com facão)' -> 'cortar'
+  id=5344
+    es: 'taladrar, perforar, agujerear (con broca o berbiquí)' -> 'taladrar, perforar, agujerear'
+    pt: 'furar, perfurar, furar (com broca ou broca)' -> 'furar, perfurar, furar'
+  id=5396
+    es: 'llevar, cargar, transportar (complemento plural inanimado)' -> 'llevar, cargar, transportar'
+    pt: 'levar, carregar, transportar (complemento plural inanimado)' -> 'levar, carregar, transportar'
+  id=5426
+    es: 'llevar, cargar, transportar (complemento singular inanimado)' -> 'llevar, cargar, transportar'
+    pt: 'levar, carregar, transportar (complemento singular inanimado)' -> 'levar, carregar, transportar'
+  id=5478
+    es: 'espantar, ahuyentar, hacer huir (complemento singular)' -> 'espantar, ahuyentar, hacer huir'
+    pt: 'espantar, ahuyentar, hacer huir (complemento singular)' -> 'espantar, ahuyentar, hacer huir'
+  id=5553
+    es: 'lavar (la cara de otra persona)' -> 'lavar'
+    pt: 'lavar (o rosto de outra pessoa)' -> 'lavar'
+  id=5560
+    es: 'lavar (las manos de otra persona)' -> 'lavar'
+    pt: 'lavar (as mãos de outra pessoa)' -> 'lavar'
+  id=5734
+    es: 'majás (especie de roedor grande de carne comestible)' -> 'majás'
+    pt: 'majás (espécie de roedor grande de carne comestível)' -> 'majás'
+  id=5771
+    es: 'en el centro (de la casa)' -> 'en el centro'
+    pt: 'no centro (da casa)' -> 'no centro'
+  id=5782
+    es: 'pate (recipiente hecho de calabaza partida)' -> 'pate'
+    pt: 'pate (recipiente feito de abóbora partida)' -> 'pate'
+  id=5784
+    es: 'ese, esa (persona o cosa de género femenino)' -> 'ese, esa'
+    pt: 'ese, esa (pessoa ou coisa de gênero feminino)' -> 'ese, esa'
+  id=5785
+    es: 'ese, esa (cosa de género neutro)' -> 'ese, esa'
+    pt: 'esse, essa (coisa de gênero neutro)' -> 'esse, essa'
+  id=5826
+    es: 'ese, esa (cosa de género neutro)' -> 'ese, esa'
+    pt: 'esse, essa (coisa de gênero neutro)' -> 'esse, essa'
+  id=5841
+    es: 'ese, esa (persona o cosa de género femenino)' -> 'ese, esa'
+    pt: 'ese, esa (pessoa ou coisa de gênero feminino)' -> 'ese, esa'
+  id=5858
+    es: 'más allá (de un lugar fijo)' -> 'más allá'
+    pt: 'além (de um lugar fixo)' -> 'além'
+  id=5867
+    es: 'esos, esas (tiempo presente y futuro)' -> 'esos, esas'
+    pt: 'esos, esas (tempo presente e futuro)' -> 'esos, esas'
+  id=5948
+    es: 'jicra (bolsa hecha de fibra de chambira o de tela)' -> 'jicra'
+    pt: 'jicra (saco feito de fibra de chambira ou de tecido)' -> 'jicra'
+  id=6023
+    es: 'para ella, para ellas (ella, ellas)' -> 'para ella, para ellas'
+    pt: 'para ela, para eles (ela, eles)' -> 'para ela, para eles'
+  id=6055
+    es: 'macambo (especie de fruto de la selva)' -> 'macambo'
+    pt: 'macambo (fruto da floresta)' -> 'macambo'
+  id=6197
+    es: 'ir (río abajo llevado por la corriente)' -> 'ir'
+    pt: 'ir (rio abaixo levado pela corrente)' -> 'ir'
+  id=6199
+    es: 'ir (río abajo llevado por la corriente)' -> 'ir'
+    pt: 'ir (rio abaixo levado pela corrente)' -> 'ir'
+  id=6201
+    es: 'abrir (canoa al empezar a fabricarla)' -> 'abrir'
+    pt: 'abrir (canoa ao começar a fabricá-la)' -> 'abrir'
+  id=6203
+    es: 'estar parados (dispersos, sujeto plural animado)' -> 'estar parados'
+    pt: 'estar parado (disperso, sujeito plural animado)' -> 'estar parado'
+  id=6236
+    es: 'moverse (de un lado a otro)' -> 'moverse'
+    pt: 'movendo (de um lado para o outro)' -> 'movendo'
+  id=6257
+    es: 'continuar (a pesar de algún impedimento o más de lo debido)' -> 'continuar'
+    pt: 'continuar (apesar de algum impedimento ou mais do que deveria)' -> 'continuar'
+  id=6286
+    es: 'tener chato, tener ñato (la nariz)' -> 'tener chato, tener ñato'
+    pt: 'ter chato, ter ñato (o nariz)' -> 'ter chato, ter ñato'
+  id=6308
+    es: 'estar bien (de salud, sujeto plural)' -> 'estar bien'
+    pt: 'estar bem (de saúde, sujeito plural)' -> 'estar bem'
+  id=6325
+    es: 'podrirse, envejecerse (poco a poco, sujeto inanimado)' -> 'podrirse, envejecerse'
+    pt: 'apodrecer, envelhecer (lentamente, assunto inanimado)' -> 'apodrecer, envelhecer'
+  id=6366
+    es: 'estar parados (dispersos, sujeto plural inanimado)' -> 'estar parados'
+    pt: 'estar parado (disperso, sujeito plural inanimado)' -> 'estar parado'
+  id=6389
+    es: 'romperse, hacerse añicos (objeto de vidrio)' -> 'romperse, hacerse añicos'
+    pt: 'quebrar, desmoronar (objeto de vidro)' -> 'quebrar, desmoronar'
+  id=6394
+    es: 'estar colocados (en fila, palos o estacas)' -> 'estar colocados'
+    pt: 'estar colocados (em linha, varas ou estacas)' -> 'estar colocados'
+  id=6412
+    es: 'taconear (lit. marcar el ritmo con el pie)' -> 'taconear'
+    pt: 'taconear (lit. marcar o ritmo com o pé)' -> 'taconear'
+  id=6437
+    es: 'empujar (canoa o lancha del puerto)' -> 'empujar'
+    pt: 'empurrar (canoa ou lancha do porto)' -> 'empurrar'
+  id=6460
+    es: 'estar armado (con armas de fuego)' -> 'estar armado'
+    pt: 'estar armado (com armas de fogo)' -> 'estar armado'
+  id=6474
+    es: 'mover (la cola, ave), colear (ave)' -> 'mover, colear'
+    pt: 'mover (a cauda, ave), colear (ave)' -> 'mover, colear'
+  id=6480
+    es: 'mover (la cola), colear (animal, no ave)' -> 'mover, colear'
+    pt: 'mover (a cauda), colar (animal, não ave)' -> 'mover, colar'
+  id=6482
+    es: 'moverse (hojas o ramas de un árbol)' -> 'moverse'
+    pt: 'mover (folhas ou ramos de uma árvore)' -> 'mover'
+  id=6502
+    es: 'apartarse, separarse (el uno del otro)' -> 'apartarse, separarse'
+    pt: 'separar, separar (um do outro)' -> 'separar, separar'
+  id=6519
+    es: 'tener límite (territorial), tener lindero, limitar' -> 'tener límite, tener lindero, limitar'
+    pt: 'ter limite (territorial), ter limite, limitar' -> 'ter limite, ter limite, limitar'
+  id=6524
+    es: 'arder, tener ardor (parte del cuerpo)' -> 'arder, tener ardor'
+    pt: 'queimar, ter ardor (parte do corpo)' -> 'queimar, ter ardor'
+  id=6561
+    es: 'su (de él, de ellos, de ella, de ellas)' -> 'su'
+    pt: 'seu (de ele, deles, dela, delas)' -> 'seu'
+  id=6575
+    es: 'días (que dura un evento, lit. sus días)' -> 'días'
+    pt: 'dias (que dura um evento, lit. seus dias)' -> 'dias'
+  id=6609
+    es: 'suyo (de él, de ellos, de ella, de ellas)' -> 'suyo'
+    pt: 'seu (dele, deles, dela, delas)' -> 'seu'
+  id=6636
+    es: 'de este tamaño, de este color (indicando con ademanes)' -> 'de este tamaño, de este color'
+    pt: 'deste tamanho, desta cor (indicando com gestos)' -> 'deste tamanho, desta cor'
+  id=6667
+    es: 'hola, buenos días, buenas tardes, buenas noches (saludo a una persona)' -> 'hola, buenos días, buenas tardes, buenas noches'
+    pt: 'olá, bom dia, boa tarde, boa noite (saúdo a uma pessoa)' -> 'olá, bom dia, boa tarde, boa noite'
+  id=6669
+    es: 'hola, buenos días, buenas tardes, buenas noches (saludo a varias personas)' -> 'hola, buenos días, buenas tardes, buenas noches'
+    pt: 'olá, bom dia, boa tarde, boa noite (saúdo a várias pessoas)' -> 'olá, bom dia, boa tarde, boa noite'
+  id=6678
+    es: 'comoquiera, como quieran (lit. depende de él o ella, de ellos o ellas)' -> 'comoquiera, como quieran'
+    pt: 'como queiram, como quiserem (lit. depende dele ou dela, deles ou delas)' -> 'como queiram, como quiserem'
+  id=6679
+    es: 'estar de acuerdo (lit. no me importa que)' -> 'estar de acuerdo'
+    pt: 'concordar (lit. eu não me importo que)' -> 'concordar'
+  id=6698
+    es: 'librarse (de un cargo), renunciar (a un cargo)' -> 'librarse, renunciar'
+    pt: 'livrar-se (de uma carga), renunciar (a uma carga)' -> 'livrar-se, renunciar'
+  id=6746
+    es: 'contradecirse (el uno al otro), discutir' -> 'contradecirse, discutir'
+    pt: 'contradizer (um ao outro), discutir' -> 'contradizer, discutir'
+  id=6748
+    es: 'combatir (el uno con el otro), pelearse' -> 'combatir, pelearse'
+    pt: 'lutar (um com o outro), brigar' -> 'lutar, brigar'
+  id=6775
+    es: 'ensayar (lit. enseñarse unos o otros)' -> 'ensayar'
+    pt: 'ensayar (lit. ensinar uns ou outros)' -> 'ensayar'
+  id=6777
+    es: 'aprender (por sí mismo; lit. enseñarse)' -> 'aprender'
+    pt: 'aprender (por si mesmo; lit. ensinar-se)' -> 'aprender'
+  id=6793
+    es: 'mirarse (el uno al otro)' -> 'mirarse'
+    pt: 'olhar um para o outro (para o outro)' -> 'olhar um para o outro'
+  id=6801
+    es: 'ayudarse, apoyarse (el uno al otro), cooperar (el uno con el otro)' -> 'ayudarse, apoyarse, cooperar'
+    pt: 'ajudar, apoiar (um ao outro), cooperar (um com o outro)' -> 'ajudar, apoiar, cooperar'
+  id=6809
+    es: 'ponerse (por encima de otras personas)' -> 'ponerse'
+    pt: 'colocar-se (acima de outras pessoas)' -> 'colocar-se'
+  id=6830
+    es: 'luchar, lidiar (el uno con el otro)' -> 'luchar, lidiar'
+    pt: 'lutar, lidar (um com o outro)' -> 'lutar, lidar'
+  id=6853
+    es: 'darse, estrecharse (la mano el uno al otro)' -> 'darse, estrecharse'
+    pt: 'dar, apertar (a mão um do outro)' -> 'dar, apertar'
+  id=6868
+    es: 'darse puñetazos (el uno al otro)' -> 'darse puñetazos'
+    pt: 'batendo uns nos outros (um no outro)' -> 'batendo uns nos outros'
+  id=6906
+    es: 'reconciliarse (el uno con el otro)' -> 'reconciliarse'
+    pt: 'reconciliar (um com o outro)' -> 'reconciliar'
+  id=6920
+    es: 'arreglar, reconciliarse (el uno con el otro)' -> 'arreglar, reconciliarse'
+    pt: 'arranjar, reconciliar (um com o outro)' -> 'arranjar, reconciliar'
+  id=6922
+    es: 'pactar, convenir, acordar (el uno con el otro)' -> 'pactar, convenir, acordar'
+    pt: 'concordar, concordar, concordar (um com o outro)' -> 'concordar, concordar, concordar'
+  id=6928
+    es: 'enojarse, disgustarse (el uno con el otro), oponerse (el uno al otro)' -> 'enojarse, disgustarse, oponerse'
+    pt: 'ficar com raiva, ficar desgostoso (um com o outro), opor-se (um ao outro)' -> 'ficar com raiva, ficar desgostoso, opor-se'
+  id=6932
+    es: 'gozarse (el uno con el otro)' -> 'gozarse'
+    pt: 'gozar (um com o outro)' -> 'gozar'
+  id=6934
+    es: 'acompañarse (el uno con el otro)' -> 'acompañarse'
+    pt: 'acompanhar-se (um ao outro)' -> 'acompanhar-se'
+  id=6936
+    es: 'tener amistad (el uno con el otro)' -> 'tener amistad'
+    pt: 'ser amigos (um com o outro)' -> 'ser amigos'
+  id=6939
+    es: 'chocarse (el uno con el otro)' -> 'chocarse'
+    pt: 'chocar (um com o outro)' -> 'chocar'
+  id=6941
+    es: 'hablar (el uno al otro), dialogar, conversar' -> 'hablar, dialogar, conversar'
+    pt: 'falar (um com o outro), dialogar, conversar' -> 'falar, dialogar, conversar'
+  id=6950
+    es: 'independiente, autónomo (lit. encargado de sí mismo)' -> 'independiente, autónomo'
+    pt: 'independente, autônomo (lit. responsável por si mesmo)' -> 'independente, autônomo'
+  id=6968
+    es: 'estar cerca (el uno del otro)' -> 'estar cerca'
+    pt: 'estar perto (um do outro)' -> 'estar perto'
+  id=6974
+    es: 'apiñarse, apretarse (el uno al otro)' -> 'apiñarse, apretarse'
+    pt: 'apertar, apertar (um ao outro)' -> 'apertar, apertar'
+  id=6976
+    es: 'apartarse (unos de otros, sujeto plural)' -> 'apartarse'
+    pt: 'afastar-se (uns dos outros, sujeito plural)' -> 'afastar-se'
+  id=7060
+    es: 'dar, donar, otorgar, entregar (complemento singular)' -> 'dar, donar, otorgar, entregar'
+    pt: 'dar, doar, conceder, entregar (complemento singular)' -> 'dar, doar, conceder, entregar'
+  id=7073
+    es: 'acercarse (a una persona o cosa)' -> 'acercarse'
+    pt: 'aproximar-se (de uma pessoa ou coisa)' -> 'aproximar-se'
+  id=7111
+    es: 'apartarse (de un lugar o de un peligro, sujeto singular)' -> 'apartarse'
+    pt: 'afastar-se (de um lugar ou de um perigo, sujeito singular)' -> 'afastar-se'
+  id=7117
+    es: 'que corresponde, que pertenece (a alguien)' -> 'que corresponde, que pertenece'
+    pt: 'que pertence, que pertence (a alguém)' -> 'que pertence, que pertence'
+  id=7280
+    es: 'compadecer, tener compasión, tener misericordia (de alguien)' -> 'compadecer, tener compasión, tener misericordia'
+    pt: 'compadecer, ter compaixão, ter misericórdia (de alguém)' -> 'compadecer, ter compaixão, ter misericórdia'
+  id=7295
+    es: 'tener ganas, querer, desear (con ansiedad)' -> 'tener ganas, querer, desear'
+    pt: 'ter vontade, querer, desejar (com ansiedade)' -> 'ter vontade, querer, desejar'
+  id=7321
+    es: 'saber (más que otra persona)' -> 'saber'
+    pt: 'saber (mais do que qualquer outra pessoa)' -> 'saber'
+  id=7346
+    es: 'dejar de afectar, cesar de afectar (a una persona)' -> 'dejar de afectar, cesar de afectar'
+    pt: 'deixar de afetar, deixar de afetar (uma pessoa)' -> 'deixar de afetar, deixar de afetar'
+  id=7348
+    es: 'aventajar, sobrepasar, superar (en fuerza física)' -> 'aventajar, sobrepasar, superar'
+    pt: 'ultrapassar, ultrapassar (em força física)' -> 'ultrapassar, ultrapassar'
+  id=7357
+    es: 'tener facilidad, tener poder (para hacer algo)' -> 'tener facilidad, tener poder'
+    pt: 'ter facilidade, ter poder (para fazer algo)' -> 'ter facilidade, ter poder'
+  id=7457
+    es: 'contar, repetir (lo que otra persona ha contado)' -> 'contar, repetir'
+    pt: 'contar, repetir (o que outra pessoa contou)' -> 'contar, repetir'
+  id=7470
+    es: 'éste, esto (cosa de género masculino)' -> 'éste, esto'
+    pt: 'este, isto (coisa de gênero masculino)' -> 'este, isto'
+  id=7474
+    es: 'el otro (cosa de género masculino)' -> 'el otro'
+    pt: 'o outro (coisa de gênero masculino)' -> 'o outro'
+  id=7475
+    es: 'el otro (con cosa de género femenino)' -> 'el otro'
+    pt: 'o outro (com coisa de gênero feminino)' -> 'o outro'
+  id=7503
+    es: 'estar viniendo, estar acercándose (un animal peligroso o una persona peligrosa)' -> 'estar viniendo, estar acercándose'
+    pt: 'estar vindo, estar se aproximando (um animal perigoso ou uma pessoa perigosa)' -> 'estar vindo, estar se aproximando'
+  id=7504
+    es: 'remo caspi (especie de árbol cuyas ramas sirven para hacer remos)' -> 'remo caspi'
+    pt: 'remo caspi (espécie de árvore cujos ramos servem para fazer remos)' -> 'remo caspi'
+  id=7512
+    es: 'llanchama (especie de árbol cuya corteza se utiliza como tela)' -> 'llanchama'
+    pt: 'llanchama (espécie de árvore cuja casca é usada como tecido)' -> 'llanchama'
+  id=7585
+    es: 'cetico (especie de árbol de madera suave que crece a orillas del río)' -> 'cetico'
+    pt: 'cetico (espécie de árvore de madeira macia que cresce nas margens do rio)' -> 'cetico'
+  id=7651
+    es: 'carne (de gallina o gallo), pollo' -> 'carne, pollo'
+    pt: 'carne (de galinha ou galo), frango' -> 'carne, frango'
+  id=7654
+    es: 'cresta (de gallo o de gallina)' -> 'cresta'
+    pt: 'crista (de galo ou de galinha)' -> 'crista'
+  id=7689
+    es: 'huancahui (especie de ave rapaz) (Dicen que el hauncahui canta cuando alguien muere.)' -> 'huancahui'
+    pt: 'huancahui (espécie de ave de rapina) (Dizem que o hauncahui canta quando alguém morre.)' -> 'huancahui'
+  id=7714
+    es: 'gramalote (hierba tupida que impide la navegación)' -> 'gramalote'
+    pt: 'gramalote (grama espessa que impede a navegação)' -> 'gramalote'
+  id=7715
+    es: 'gramalotal (abundancia de hierba tupida que impide la navegación)' -> 'gramalotal'
+    pt: 'gramalotal (abundância de grama espessa que impede a navegação)' -> 'gramalotal'
+  id=7718
+    es: 'renaco (especie de árbol que tiene muchas raíces)' -> 'renaco'
+    pt: 'renaco (espécie de árvore que tem muitas raízes)' -> 'renaco'
+  id=7721
+    es: 'guaba, guamo (árbol que produce vainas largas comestibles)' -> 'guaba, guamo'
+    pt: 'goiaba, guamo (árvore que produz vagens longas comestíveis)' -> 'goiaba, guamo'
+  id=7740
+    es: 'árbol del pan (de fruto comestible)' -> 'árbol del pan'
+    pt: 'árvore do pão (de fruto comestível)' -> 'árvore do pão'
+  id=7764
+    es: 'instrumento (musical como tambor, guitarra, órgano, piano, corneta o flauta)' -> 'instrumento'
+    pt: 'instrumento (musical como tambor, guitarra, órgão, piano, corneta ou flauta)' -> 'instrumento'
+  id=7766
+    es: 'grupo (musical), conjunto (de músicos), orquesta' -> 'grupo, conjunto, orquesta'
+    pt: 'grupo (musical), conjunto (de músicos), orquestra' -> 'grupo, conjunto, orquestra'
+  id=7774
+    es: 'otro día (en el futuro cercano)' -> 'otro día'
+    pt: 'outro dia (no futuro próximo)' -> 'outro dia'
+  id=7780
+    es: 'rápidamente (como un abrir y cerrar de ojos.)' -> 'rápidamente'
+    pt: 'rapidamente (como um piscar de olhos.)' -> 'rapidamente'
+  id=7782
+    es: 'como quieran (lit. depende de ustedes)' -> 'como quieran'
+    pt: 'como quiserem (lit. depende de vocês)' -> 'como quiserem'
+  id=7824
+    es: '¡adiós!, ¡hasta luego! (a más de una persona)' -> '¡adiós!, ¡hasta luego!'
+    pt: 'até logo! (para mais de uma pessoa)' -> 'até logo!'
+  id=7836
+    es: 'piraiba (especie de pez fluvial que llega a tres metros de largo)' -> 'piraiba'
+    pt: 'piraíba (espécie de peixe fluvial que chega a três metros de comprimento)' -> 'piraíba'
+  id=7863
+    es: 'curva (en el camino o río)' -> 'curva'
+    pt: 'curva (na estrada ou rio)' -> 'curva'
+  id=7867
+    es: 'moldeado (a martillo), labrado (con martillo), martillado' -> 'moldeado, labrado, martillado'
+    pt: 'moldado (martelado), trabalhado (martelado), martelado' -> 'moldado, trabalhado, martelado'
+  id=7870
+    es: 'vuelta, curva (en el río, quebrada o camino)' -> 'vuelta, curva'
+    pt: 'volta, curva (no rio, riacho ou estrada)' -> 'volta, curva'
+  id=7872
+    es: 'a la vuelta (de una esquina o curva)' -> 'a la vuelta'
+    pt: 'ao virar (de uma esquina ou curva)' -> 'ao virar'
+  id=7894
+    es: 'estante (donde se guardan papeles)' -> 'estante'
+    pt: 'prateleira (onde os papéis são armazenados)' -> 'prateleira'
+  id=7940
+    es: 'ojé (especie de árbol cuyo fruto atrae a los peces)' -> 'ojé'
+    pt: 'ojé (espécie de árvore cujo fruto atrai os peixes)' -> 'ojé'
+  id=7961
+    es: 'huapapa (especie de ave que pesca de noche)' -> 'huapapa'
+    pt: 'huapapa (espécie de ave que pesca à noite)' -> 'huapapa'
+  id=7966
+    es: 'caña (de pescar), palo (para pescar con anzuelo)' -> 'caña, palo'
+    pt: 'vara (de pesca), vara (para pesca com anzol)' -> 'vara, vara'
+  id=7977
+    es: 'palo de sangre (especie de árbol)' -> 'palo de sangre'
+    pt: 'vara de sangue (espécie de árvore)' -> 'vara de sangue'
+  id=7983
+    es: 'topa (especie de árbol de madera muy liviana)' -> 'topa'
+    pt: 'topa (espécie de árvore de madeira muito leve)' -> 'topa'
+  id=8007
+    es: 'apacharama (especie de árbol cuya corteza sirve para hacer carbón)' -> 'apacharama'
+    pt: 'apacharama (espécie de árvore cuja casca serve para fazer carvão)' -> 'apacharama'
+  id=8009
+    es: 'azuela (para labrar canoa), cavador (de canoa)' -> 'azuela, cavador'
+    pt: 'azuela (para labrar canoa), cavador (de canoa)' -> 'azuela, cavador'
+  id=8027
+    es: 'bocina (hecha de corteza de árbol)' -> 'bocina'
+    pt: 'chifre (feito de casca de árvore)' -> 'chifre'
+  id=8028
+    es: 'orzuelo (en el borde del párpado)' -> 'orzuelo'
+    pt: 'moela (na borda da pálpebra)' -> 'moela'
+  id=8031
+    es: 'pescadores rederos (que pescan con red larga)' -> 'pescadores rederos'
+    pt: 'pescadores de rede (pesca com rede de emalhar)' -> 'pescadores de rede'
+  id=8057
+    es: 'menor (de edad que otra persona)' -> 'menor'
+    pt: 'menor (de idade que outra pessoa)' -> 'menor'
+  id=8211
+    es: 'valiente, heroico (que no tiene miedo)' -> 'valiente, heroico'
+    pt: 'corajoso, heroico (que não tem medo)' -> 'corajoso, heroico'
+  id=8250
+    es: 'grueso (como palo o tronco)' -> 'grueso'
+    pt: 'espessura (como a vara ou tronco)' -> 'espessura'
+  id=8339
+    es: 'mercadería, mercancía (que está en venta)' -> 'mercadería, mercancía'
+    pt: 'mercadoria, mercadoria (que está à venda)' -> 'mercadoria, mercadoria'
+  id=8340
+    es: 'comerciantes, personas de negocios (compradores o vendedores)' -> 'comerciantes, personas de negocios'
+    pt: 'comerciantes, pessoas de negócios (compradores ou vendedores)' -> 'comerciantes, pessoas de negócios'
+  id=8342
+    es: 'comerciante, persona de negocios (comprador o vendedor)' -> 'comerciante, persona de negocios'
+    pt: 'comerciante, pessoa de negócios (comprador ou vendedor)' -> 'comerciante, pessoa de negócios'
+  id=8414
+    es: 'desafilado, no filoso (cuchillo o machete)' -> 'desafilado, no filoso'
+    pt: 'sem corte, não afiado (faca ou facão)' -> 'sem corte, não afiado'
+  id=8422
+    es: 'de quien (cosas de género masculino)' -> 'de quien'
+    pt: 'de quem (coisas de gênero masculino)' -> 'de quem'
+  id=8433
+    es: 'chicua (especie de ave que se cree que anuncia algún mal)' -> 'chicua'
+    pt: 'chicua (espécie de ave que se acredita que anuncia algum mal)' -> 'chicua'
+  id=8434
+    es: 'tejelina (recipiente de latón para recoger la savia del caucho)' -> 'tejelina'
+    pt: 'tejelina (recipiente de latão para recolher a seiva da borracha)' -> 'tejelina'
+  id=8447
+    es: 'orilla, banda (otro lado de un río o un lago)' -> 'orilla, banda'
+    pt: 'margem, banda (outro lado de um rio ou lago)' -> 'margem, banda'
+  id=8452
+    es: 'ajeno (que pertenece a otra persona)' -> 'ajeno'
+    pt: 'alheio (pertencente a outra pessoa)' -> 'alheio'
+  id=8454
+    es: 'a nosotros mismos (excluye al oyente)' -> 'a nosotros mismos'
+    pt: 'a nós mesmos (excluindo o ouvinte)' -> 'a nós mesmos'
+  id=8463
+    es: 'a nosotros mismos (excluye al oyente)' -> 'a nosotros mismos'
+    pt: 'a nós mesmos (excluindo o ouvinte)' -> 'a nós mesmos'
+  id=8487
+    es: 'a nosotros, de nosotros (excluye al oyente)' -> 'a nosotros, de nosotros'
+    pt: 'para nós, de nós (excluindo o ouvinte)' -> 'para nós, de nós'
+  id=8496
+    es: 'isula (especie de hormiga grande de picadura muy dolorosa)' -> 'isula'
+    pt: 'isula (espécie de formiga grande de picada muito dolorosa)' -> 'isula'
+  id=8497
+    es: 'nosotros, a nosotros (excluye al oyente)' -> 'nosotros, a nosotros'
+    pt: 'nós, a nós (exclue o ouvinte)' -> 'nós, a nós'
+  id=8504
+    es: 'impedimento (para pasar por un lugar)' -> 'impedimento'
+    pt: 'impedimento (para passar por um lugar)' -> 'impedimento'
+  id=8505
+    es: 'impedimento (para pasar por varios lugares)' -> 'impedimento'
+    pt: 'impedimento (para passar por vários lugares)' -> 'impedimento'
+  id=8521
+    es: 'mantablanca (mosquito diminuto que pica)' -> 'mantablanca'
+    pt: 'manta branca (mosquito minúsculo que pica)' -> 'manta branca'
+  id=8567
+    es: 'tornillo, cedro masho (especie de árbol de madera dura)' -> 'tornillo, cedro masho'
+    pt: 'parafuso, cedro masho (espécie de árvore de madeira dura)' -> 'parafuso, cedro masho'
+  id=8582
+    es: 'él mismo (alguien de la familia)' -> 'él mismo'
+    pt: 'ele mesmo (alguém da família)' -> 'ele mesmo'
+  id=8586
+    es: 'su (de él, de ella, de ellos, de ellas)' -> 'su'
+    pt: 'seu (de ele, dela, deles, delas)' -> 'seu'
+  id=8587
+    es: 'suyo, suya (alguien de la familia)' -> 'suyo, suya'
+    pt: 'seu, sua (alguém da família)' -> 'seu, sua'
+  id=8588
+    es: 'para él, para ellos, para ella, para ellas (alguien de la familia)' -> 'para él, para ellos, para ella, para ellas'
+    pt: 'para ele, para eles, para ela, para elas (alguém da família)' -> 'para ele, para eles, para ela, para elas'
+  id=8589
+    es: 'con él, con ellos, con ella, con ellas (alguien de la familia)' -> 'con él, con ellos, con ella, con ellas'
+    pt: 'com ele, com eles, com ela, com elas (alguém da família)' -> 'com ele, com eles, com ela, com elas'
+  id=8590
+    es: 'él, ella (alguien de la familia)' -> 'él, ella'
+    pt: 'ele, ela (alguém da família)' -> 'ele, ela'
+  id=8601
+    es: 'mullaca (especie de planta de fruto agradable)' -> 'mullaca'
+    pt: 'mullaca (espécie de planta de fruto agradável)' -> 'mullaca'
+  id=8602
+    es: 'sombrilla, parasol (como una rama o una hoja)' -> 'sombrilla, parasol'
+    pt: 'guarda-chuva, guarda-sol (como um ramo ou uma folha)' -> 'guarda-chuva, guarda-sol'
+  id=8608
+    es: 'yuca blanca (se come cocida, frita o en fariña)' -> 'yuca blanca'
+    pt: 'mandioca branca (comida cozida, frita ou em farinha)' -> 'mandioca branca'
+  id=8611
+    es: 'a él, a ella (alguien de la familia)' -> 'a él, a ella'
+    pt: 'para ele, para ela (alguém da família)' -> 'para ele, para ela'
+  id=8612
+    es: 'de él, de ella (alguien de la familia)' -> 'de él, de ella'
+    pt: 'dele, dela (alguém da família)' -> 'dele, dela'
+  id=8613
+    es: 'a nosotros, de nosotros (incluye al oyente)' -> 'a nosotros, de nosotros'
+    pt: 'para nós, de nós (inclui o ouvinte)' -> 'para nós, de nós'
+  id=8614
+    es: 'a él, a ella (alguien de la familia)' -> 'a él, a ella'
+    pt: 'para ele, para ela (alguém da família)' -> 'para ele, para ela'
+  id=8616
+    es: 'para él, para ella (alguien de la familia)' -> 'para él, para ella'
+    pt: 'para ele, para ela (alguém da família)' -> 'para ele, para ela'
+  id=8626
+    es: 'catahua (árbol de madera suave de la que se hacen balsas)' -> 'catahua'
+    pt: 'catahua (árvore de madeira macia da qual se fazem jangadas)' -> 'catahua'
+  id=8656
+    es: 'vaca muchacho (especie de ave que le gusta perseguir a las vacas)' -> 'vaca muchacho'
+    pt: 'menino vaca (espécie de pássaro que gosta de perseguir vacas)' -> 'menino vaca'
+  id=8757
+    es: 'huacapuruna (especie de árbol cuya corteza sirve para remedio)' -> 'huacapuruna'
+    pt: 'huacapuruna (espécie de árvore cuja casca serve para remédio)' -> 'huacapuruna'
+  id=8762
+    es: 'huasaí (especie de palmera de cogollo comestible)' -> 'huasaí'
+    pt: 'Huasaí (espécie de palmeira de broto comestível)' -> 'Huasaí'
+  id=8763
+    es: 'chonta (cogollo comestible de la palmera huasaí)' -> 'chonta'
+    pt: 'chonta (cogumelo comestível da palmeira huasaí)' -> 'chonta'
+  id=8768
+    es: 'piedra (de afilar), lima (herramienta), afilador' -> 'piedra, lima, afilador'
+    pt: 'pedra (de afiar), lima (ferramenta), apontador' -> 'pedra, lima, apontador'
+  id=8790
+    es: 'guariuba (especie de árbol de madera dura comerciable)' -> 'guariuba'
+    pt: 'Guariuba (espécie de árvore de madeira dura comercializável)' -> 'Guariuba'
+  id=8792
+    es: 'viga (madero horizontal colocado sobre los horcones)' -> 'viga'
+    pt: 'viga (madeira horizontal colocada sobre os furos)' -> 'viga'
+  id=8793
+    es: 'suisuy (especie de ave pequeña de color azul)' -> 'suisuy'
+    pt: 'suisuy (espécie de ave pequena de cor azul)' -> 'suisuy'
+  id=8839
+    es: 'cima (de un árbol o cerro)' -> 'cima'
+    pt: 'topo (de uma árvore ou colina)' -> 'topo'
+  id=8980
+    es: 'cumbre (de techo de hojas), hojas (que cubren la cumbrera del techo)' -> 'cumbre, hojas'
+    pt: 'cume (de telhado de folhas), folhas (que cobrem a crista do telhado)' -> 'cume, folhas'
+  id=9022
+    es: 'andiroba (especie de árbol de madera dura comerciable)' -> 'andiroba'
+    pt: 'andiroba (espécie de árvore de madeira dura comercializável)' -> 'andiroba'
+  id=9063
+    es: 'ése, ésa, eso (cosa de género neutro)' -> 'ése, ésa, eso'
+    pt: 'aquele, aquela, isso (coisa de gênero neutro)' -> 'aquele, aquela, isso'
+  id=9064
+    es: 'ésos, ésas (cosas de género neutro)' -> 'ésos, ésas'
+    pt: 'ésos, ésas (coisas de gênero neutro)' -> 'ésos, ésas'
+  id=9065
+    es: 'aquél, aquélla, aquello (cosa de género neutro)' -> 'aquél, aquélla, aquello'
+    pt: 'aquele, aquela, aquilo (coisa de gênero neutro)' -> 'aquele, aquela, aquilo'
+  id=9066
+    es: 'aquéllas, aquéllos (cosas de género neutro)' -> 'aquéllas, aquéllos'
+    pt: 'aquelas, aqueles (coisas de gênero neutro)' -> 'aquelas, aqueles'
+  id=9073
+    es: 'otro lado, otra banda (de un río o quebrada)' -> 'otro lado, otra banda'
+    pt: 'outro lado, outra banda (de um rio ou torrente)' -> 'outro lado, outra banda'
+  id=9074
+    es: 'ésos, ésas (personas, cosas de género masculino)' -> 'ésos, ésas'
+    pt: 'ésos, ésas (pessoas, coisas de gênero masculino)' -> 'ésos, ésas'
+  id=9075
+    es: 'aquéllos, aquéllas (personas, cosas de género masculino)' -> 'aquéllos, aquéllas'
+    pt: 'aqueles, aquelas (pessoas, coisas de gênero masculino)' -> 'aqueles, aquelas'
+  id=9076
+    es: 'ésos, ésas, aquéllos, aquéllas (personas o cosas de género femenino)' -> 'ésos, ésas, aquéllos, aquéllas'
+    pt: 'ésos, ésas, aquéllos, aquéllas (pessoas ou coisas de gênero feminino)' -> 'ésos, ésas, aquéllos, aquéllas'
+  id=9078
+    es: 'ese, esa (cosa de género neutro)' -> 'ese, esa'
+    pt: 'esse, essa (coisa de gênero neutro)' -> 'esse, essa'
+  id=9079
+    es: 'aquel, aquella (cosa de género neutro)' -> 'aquel, aquella'
+    pt: 'aquele, aquela (coisa de gênero neutro)' -> 'aquele, aquela'
+  id=9081
+    es: 'ese, esa (cosa de género femenino)' -> 'ese, esa'
+    pt: 'esse, essa (coisa de gênero feminino)' -> 'esse, essa'
+  id=9094
+    es: 'ése, ésa, eso, aquél, aquélla, aquello (mismo, cosa de género neutro)' -> 'ése, ésa, eso, aquél, aquélla, aquello'
+    pt: 'aquele, aquela, aquilo, aquela, aquele (mesmo, coisa de gênero neutro)' -> 'aquele, aquela, aquilo, aquela, aquele'
+  id=9097
+    es: 'yacumama, anaconda (especie de boa grande)' -> 'yacumama, anaconda'
+    pt: 'yacumama, anaconda (espécie de boa grande)' -> 'yacumama, anaconda'
+  id=9120
+    es: 'el, la (persona o cosa de género masculino)' -> 'el, la'
+    pt: 'el, la (pessoa ou coisa de gênero masculino)' -> 'el, la'
+  id=9122
+    es: 'a nosotros mismos (incluye al oyente)' -> 'a nosotros mismos'
+    pt: 'a nós mesmos (inclui o ouvinte)' -> 'a nós mesmos'
+  id=9123
+    es: 'ese, esa, aquel, aquella (cosa de género masculino)' -> 'ese, esa, aquel, aquella'
+    pt: 'esse, essa, aquele, aquela (coisa de gênero masculino)' -> 'esse, essa, aquele, aquela'
+  id=9124
+    es: 'ese, esa, aquel, aquella (persona o cosa de género masculino)' -> 'ese, esa, aquel, aquella'
+    pt: 'aquele, aquela, esse, essa (pessoa ou coisa de gênero masculino)' -> 'aquele, aquela, esse, essa'
+  id=9147
+    es: 'pato aguja (especie de pato silvestre pequeño)' -> 'pato aguja'
+    pt: 'pato agulha (pequena espécie de pato selvagem)' -> 'pato agulha'
+  id=9153
+    es: 'comején (blanco que no deja rastro)' -> 'comején'
+    pt: 'comején (branco que não deixa nenhum traço)' -> 'comején'
+  id=9154
+    es: 'guaba (árbol que produce vainas cortas)' -> 'guaba'
+    pt: 'goiaba (árvore que produz vagens curtas)' -> 'goiaba'
+  id=9155
+    es: 'Yoxi (personaje mitológico que según la tradición es el mayor de los dos hermanos fundadores de los ticuna)' -> 'Yoxi'
+    pt: 'Yoxi (personagem mitológico que segundo a tradição é o mais velho dos dois irmãos fundadores dos ticuna)' -> 'Yoxi'
+  id=9185
+    es: 'curandero (que puede hacer daño a una persona o puede curarla con plantas)' -> 'curandero'
+    pt: 'curandeiro (que pode machucar uma pessoa ou pode curá-la com plantas)' -> 'curandeiro'
+  id=9186
+    es: 'brujo (que puede hacer daño a una persona con tabaco)' -> 'brujo'
+    pt: 'bruxo (que pode prejudicar uma pessoa com tabaco)' -> 'bruxo'
+  id=9193
+    es: 'trampero (el que pone trampas para cazar animales)' -> 'trampero'
+    pt: 'caçador (aquele que coloca armadilhas para caçar animais)' -> 'caçador'
+  id=9200
+    es: 'pelación (rito en el que se le quita el pelo a una muchacha adolescente)' -> 'pelación'
+    pt: 'pelagem (rito em que o cabelo de uma adolescente é removido)' -> 'pelagem'
+
+4. EXACT DUPLICATES DROPPED (kept first occurrence): 20
+------------------------------------------------------------
+  id=1315 duplicate of id=1314
+  id=3371 duplicate of id=1328
+  id=4625 duplicate of id=3067
+  id=4978 duplicate of id=4626
+  id=6630 duplicate of id=5430
+  id=6632 duplicate of id=5225
+  id=7010 duplicate of id=5993
+  id=7064 duplicate of id=6631
+  id=7473 duplicate of id=7471
+  id=7475 duplicate of id=7474
+  id=7820 duplicate of id=4356
+  id=8129 duplicate of id=4421
+  id=8183 duplicate of id=8173
+  id=8274 duplicate of id=2413
+  id=8280 duplicate of id=821
+  id=8329 duplicate of id=4626
+  id=8330 duplicate of id=3067
+  id=8502 duplicate of id=6563
+  id=8860 duplicate of id=8852
+  id=9081 duplicate of id=9078

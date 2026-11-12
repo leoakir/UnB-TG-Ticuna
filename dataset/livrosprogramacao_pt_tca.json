@@ -1,0 +1,842 @@
+[
+  {
+    "id": 1,
+    "pt": "INTRODUÇÃO",
+    "tca": "ÜGÜ"
+  },
+  {
+    "id": 2,
+    "pt": "Lógica Proposicional é usada para combinar declarações e analisar sua relações.",
+    "tca": "Lógica Proposicional rü nama’ã ü’ü na narüwü’iguêêî i deagü nhumatchi narüngugü’ü i norü nügüwa idagü’ü."
+  },
+  {
+    "id": 3,
+    "pt": "Essas declarações, chamadas proposições, afirmações que são podem ser verdadeiras ou falsas.",
+    "tca": "Nha’ã deagü, naega i proposições, Ngema rü nü’ü niutchaü na ngürüãtchi (aicuma niî’î, verdadeiras) rüena falsas."
+  },
+  {
+    "id": 4,
+    "pt": "A partir da combinação de proposicões é possível criar declarações mais complexas e veracidade.",
+    "tca": "Nhuma wü’iguû’wa ügü’ü arü proposicões rü name’ta rüü’ü i deagü âûri gutchagü’üraü nhumatchi narüngugü’ü i norü aicuma."
+  },
+  {
+    "id": 5,
+    "pt": "O que é Lógica Proposicional?",
+    "tca": "Rü tacü ni’î i Lógica Proposicional?"
+  },
+  {
+    "id": 6,
+    "pt": "Lógica Proposicional é a parte da lógica que lida com sentenças declarativas, chamadas de proposições.",
+    "tca": "Lógica Proposicional rü inü tchipe’e i nü’ü daû nama’ã i deagü, i proposições’ãcü cagü’ü."
+  },
+  {
+    "id": 7,
+    "pt": "A lógica proposicional nos ajuda a entender como afirmações se ligam e como podemos juntá-las de várias formas para entender o que acontece ao nosso redor e pensar de maneira lógica sobre acontecimentos do dia a dia.",
+    "tca": "Rü lógica proposicional rü tü’ü narü’ngüêê na nü’ü icuãü na nhu’ãcü nü’ü niutchaü’ü na nügüwa nidagü’ü nhumatchi nhu’ãcüta wü’iwa rünaü i to’omatchigü i nacüma’ãcü na nü’ü icuaeīca i tacü ngupetü’ü i torü tacüwawa nhumatchi īnü’cümaãcü nagu rüīnü’ü i natchiga i ngupetügü’ü arü nguneîtchigü."
+  },
+  {
+    "id": 8,
+    "pt": "Sintaxe da Lógica Proposicional",
+    "tca": "Sintaxe da Lógica Proposicional"
+  },
+  {
+    "id": 9,
+    "pt": "A sintaxe da lógica proposicional é a forma como organizamos e relacionamos os elementos que existem neste tipo de lógica, como se fosse um livro de regras.",
+    "tca": "A sintaxe da lógica proposicional rü nacüma ni’ī na nhu’ãcü rünugü’ü nhumatchi nügüwa idaêêî i nawa ngemaü i înürü’ü îî’î, nhama tchi wü’i popera arü mugürü’ü."
+  },
+  {
+    "id": 10,
+    "pt": "Nela temos alguns elementos, como: proposições, valores verdade e os conectivos lógicos.",
+    "tca": "Nawa tü’ü nangema i nümaügü i guüma i wü’i natucumüwa ngemaü, nhama: nü’ü niu’tchaü i namatü i aicuma iî’î rüena tama aicuma, norü nguutchi i aicuma nhumatchi i namatü i tare rüena to’omawatchigü idaü."
+  },
+  {
+    "id": 11,
+    "pt": "O que é Proposição?",
+    "tca": "Rü tacü ni’î i Proposição?"
+  },
+  {
+    "id": 12,
+    "pt": "É uma declaração que pode ser verdadeira ou falsa, mas nunca as duas ao mesmo tempo.",
+    "tca": "Rü wü’i deagü i ngürüãtchi’ta (aicuma iî’î) (verdadeira) rüena falsa, notürü taguta’tama tare ni’îgü ngegumatama."
+  },
+  {
+    "id": 13,
+    "pt": "Exemplos:",
+    "tca": "Cua’ãtchiruûgü:"
+  },
+  {
+    "id": 14,
+    "pt": "falsa",
+    "tca": "tama aicuma ni’î"
+  },
+  {
+    "id": 15,
+    "pt": "verdadeira",
+    "tca": "aicuma ni’î"
+  },
+  {
+    "id": 16,
+    "pt": "Hoje está frio.",
+    "tca": "Nhuma rü na gauane."
+  },
+  {
+    "id": 17,
+    "pt": "pode ser verdadeira ou falsa",
+    "tca": "ngürüãcthi’ta aicuma ni’î rüena tama aicuma"
+  },
+  {
+    "id": 18,
+    "pt": "Se não for possível definir a interpretação da declaração (verdadeira ou falsa),",
+    "tca": "Rü ngeguma tchi taûãcü nü’ü niugu i deagü arü ngugü (aicuma iî’î rüena tama aicuma iî’î),"
+  },
+  {
+    "id": 19,
+    "pt": "então não é uma proposição, por exemplo, frases interrogativas e imperativas.",
+    "tca": "rü cua’ãtchiruû, namatügü icagü’ü nhumatchi namatügü i muweegü’ü."
+  },
+  {
+    "id": 20,
+    "pt": "Qual a capital do Brasil?",
+    "tca": "Ngeîrüü’ü ni’î i Brasil’arü capital?"
+  },
+  {
+    "id": 21,
+    "pt": "Feche a janela!",
+    "tca": "Îâ rüwata!"
+  },
+  {
+    "id": 22,
+    "pt": "Proposição Simples Proposição Composta",
+    "tca": "Proposicão Tautchagü’ü Proposicão Tare iîgü’ü"
+  },
+  {
+    "id": 23,
+    "pt": "As proposicões são representadas através de letras do alfabeto, sendo mais comum o uso de",
+    "tca": "Rü proposicões rü narüwe nawa i letra’gü i alfabeto’arüwa, ngemagüta’ã nama’ã aûri rü’ügüü"
+  },
+  {
+    "id": 24,
+    "pt": "e cada letra representa uma declaração afirmativa que tem como valor verdade, verdadeiro ou falso.",
+    "tca": "nhumatchi wü’itchigü letra nawe i wü’i deagü nü’ü iutchaü’ü na nü’ü nangemaü i norü nguutchi i aicuma, aicuma iî’î rüena tama aicuma iî’î."
+  },
+  {
+    "id": 25,
+    "pt": "O cachorro está brincando.",
+    "tca": "Rü airu rü na’îããwee."
+  },
+  {
+    "id": 26,
+    "pt": "O papagaio está dormindo.",
+    "tca": "Rü we’u rü na’pe."
+  },
+  {
+    "id": 27,
+    "pt": "Uma proposicão simples é quando temos apenas uma declaração,",
+    "tca": "Wü’i proposicão tautchaü rü ngugu tü’û nangemagügu i wü’itama i dea ni’î."
+  },
+  {
+    "id": 28,
+    "pt": "no exemplo acima \"p\" e \"q\" são proposicões simples.",
+    "tca": "i cua’ãtchiru’û i dau’nawa üürü’ü \"p\" nhumatchi \"q\" rü proposicões tautchamareî ni’îgü."
+  },
+  {
+    "id": 29,
+    "pt": "Agora se fizermos uma combinacão entre duas proposições simples teremos uma proposição composta, como no exemplo abaixo:",
+    "tca": "Nhuma tchi naügügu wü’i nguãtchi i nügümaã’tama i tautchagü’ü tü’û tare tchi proposições nangema wü’i proposição i tare iî’î, nhama cua’ãtchiru’û i nhatügu’û warüü:"
+  },
+  {
+    "id": 30,
+    "pt": "O cachorro está brincando e o papagaio está dormindo.",
+    "tca": "Rü airu rü na’îããwee nacü we’u rü na’peî."
+  },
+  {
+    "id": 31,
+    "pt": "Podemos observar que agora temos uma proposição \"r\" que é a combinação das proposições \"p\" e \"q\".",
+    "tca": "Rü nhuma nü’ü idawenügu tü’û nangema wü’i proposição \"r\" rü ngema rü inügüraügü’ü arü proposições \"p\" nhumatchi \"q\" ni’î."
+  },
+  {
+    "id": 32,
+    "pt": "Conectivos Lógicos",
+    "tca": "Tare namatü i nügüwa idaü"
+  },
+  {
+    "id": 33,
+    "pt": "Os conectivos lógicos são elementos da lógica proposicional para combinar proposicões e verificar se um raciocínio mais complexo é válido.",
+    "tca": "Rü namatü i tare rüena to’omawatchigü idaü ngema rü natchipe’e i lógica proposicional’arü ni’îgü na narüwü’iguêêî i proposicões nhumatchi narüngugü’ü tchi wü’i înü ãûri gutchaü rü nameî."
+  },
+  {
+    "id": 34,
+    "pt": "Os principais conectivos são:",
+    "tca": "Rü nhaãgü ni’î i me’êtchi’î i nügüwa idaü:"
+  },
+  {
+    "id": 35,
+    "pt": "Conectivo",
+    "tca": "Nügüwa idaü"
+  },
+  {
+    "id": 36,
+    "pt": "Símbolo",
+    "tca": "Símbolo"
+  },
+  {
+    "id": 37,
+    "pt": "Nome da operação",
+    "tca": "Operação’ega"
+  },
+  {
+    "id": 38,
+    "pt": "NÃO",
+    "tca": "TAMA"
+  },
+  {
+    "id": 39,
+    "pt": "E",
+    "tca": "NHUMATCHI"
+  },
+  {
+    "id": 40,
+    "pt": "OU",
+    "tca": "RÜENA"
+  },
+  {
+    "id": 41,
+    "pt": "NEGAÇÃO",
+    "tca": "UERUÛ"
+  },
+  {
+    "id": 42,
+    "pt": "CONJUNÇÃO",
+    "tca": "WÜ’IWA RÜNAÜ"
+  },
+  {
+    "id": 43,
+    "pt": "DISJUNÇÃO",
+    "tca": "WÜ’I IUNETAÜ"
+  },
+  {
+    "id": 44,
+    "pt": "O que é Tabela Verdade?",
+    "tca": "Rü tacü ni’î i Tabela Aicuma?"
+  },
+  {
+    "id": 45,
+    "pt": "Tabela verdade é uma técnica que nos ajuda a ver todas possibilidades de verdadeiro ou falso de uma declaração.",
+    "tca": "Tabela aicuma rü wü’i nacüma i tü’ü rüngüêêî na yiema nü’ü ida’ûca i guüma i to’omatchigü i nacüma i aicuma’arü rüena tama wü’i dea’arü aicuma."
+  },
+  {
+    "id": 46,
+    "pt": "Estrutura de uma Tabela Verdade",
+    "tca": "Wü’i Tabela Aicuma arü Natchina’ã"
+  },
+  {
+    "id": 47,
+    "pt": "Tabela Verdade com uma proposição",
+    "tca": "Tabela Aicuma nama’ã i wü’i proposicão"
+  },
+  {
+    "id": 48,
+    "pt": "Digamos que \"p\" seja uma proposição, a tabela verdade ficaria:",
+    "tca": "Nü’ü ti’ugü p rü ta wü’i proposicão niî’î, rü nha’ãcü ta naüü i tabela aicuma:"
+  },
+  {
+    "id": 49,
+    "pt": "VERDADEIRO",
+    "tca": "AICUMA"
+  },
+  {
+    "id": 50,
+    "pt": "FALSO",
+    "tca": "TAMA AICUMA"
+  },
+  {
+    "id": 51,
+    "pt": "Tabela Verdade com duas proposições",
+    "tca": "Tabela Aicuma nama’ã i tare proposicões"
+  },
+  {
+    "id": 52,
+    "pt": "Digamos que \"p\" e \"q\" sejam proposições quaisquer, a tabela verdade ficaria:",
+    "tca": "Nü’ü ti’ugü p nhumatchi q rü ta proposições ngeîrüü’ümare ni’î, rü nha’ãcü ta naüü i tabela aicuma:"
+  },
+  {
+    "id": 53,
+    "pt": "Temos todas as combinacões possíveis para p e q",
+    "tca": "Tü’ü nangema i guüma i wü’igugü’ü naca p nhumatchi q"
+  },
+  {
+    "id": 54,
+    "pt": "Tabela Verdade dos Conectivos Lógicos",
+    "tca": "Tabela Aicuma Tare namatü i nügüwa idagü’ü arü"
+  },
+  {
+    "id": 55,
+    "pt": "Para preencher a tabela verdade de proposições compostas, ou seja, proposições simples que são ligadas por conectivos lógicos, temos que obedecer algumas regras para cada conectivo.",
+    "tca": "Na rü’üãcugu i tabela aicuma i proposicões tare’arü, rüena tchi, proposicões tautchagü’ü i ngema tare namatü nügüwa idaü, name ni’î i nümaügü naga i înü’ü i mugü naca i wü’itchigü i nügüwa idaü."
+  },
+  {
+    "id": 56,
+    "pt": "Vamos aprender cada uma!",
+    "tca": "Ngi’ã nü’ü ta’cuae i wü’itchigü!"
+  },
+  {
+    "id": 57,
+    "pt": "Tabela Verdade da Negação",
+    "tca": "Tabela Aicuma i Ueruû arü"
+  },
+  {
+    "id": 58,
+    "pt": "A negacão é o inverso do que acontece.",
+    "tca": "Rü ueruû rü norü to’cüwa i tacü ngupetü’ü ni’î."
+  },
+  {
+    "id": 59,
+    "pt": "Se algo é verdadeiro, a negação vira falso.",
+    "tca": "Tchi ngeguma namatü rü aicuma ni’îgu, rü ueruû rü tama aicuma’üü ni’û."
+  },
+  {
+    "id": 60,
+    "pt": "Se algo é falso, a negação vira verdadeiro.",
+    "tca": "Tchi ngeguma namatü rü tama aicuma ni’îgu, rü ueruû rü aicuma’ü ni’û."
+  },
+  {
+    "id": 61,
+    "pt": "A rua está molhada.",
+    "tca": "Rü nama rü niwaiane."
+  },
+  {
+    "id": 62,
+    "pt": "A rua está seca.",
+    "tca": "Rü nama rü nipaãne"
+  },
+  {
+    "id": 63,
+    "pt": "Quando dizemos que a rua está seca, é o mesmo que dizer \"a rua não está molhada.\"",
+    "tca": "Ngeguma nü’ü iugügu i nama na nipaãneî, rü ngematama nü’ü niu na \"rü nama tama niwaianeî.\""
+  },
+  {
+    "id": 64,
+    "pt": "Podemos ter proposições com mais de um conectivo de negação. Por exemplo:",
+    "tca": "Nameta tü’ü nangemaü i proposições nama’ã i wü’i to’ i tare namatü’arü ueruû. Rü cua’ãtchiruû:"
+  },
+  {
+    "id": 65,
+    "pt": "O rio está vazio.",
+    "tca": "Rü tatü rü nangeãcu."
+  },
+  {
+    "id": 66,
+    "pt": "O rio não está vazio.",
+    "tca": "Rü tatü rü tama nangeãcu."
+  },
+  {
+    "id": 67,
+    "pt": "É possível ver que quando usamos dois conectivos de negação, a proposição volta ao seu estado original, então podemos concluir que negar duas vezes é como voltar ao começo.",
+    "tca": "Name nü’ü idaû ngeguma nama’ã rü’ügügu i tare i namatü i ueruû’arü, rü proposicão na taegu i norü aicumatama’ca, ngega’nacü name nü’ü iu’u na tare’arü irü’uegu rü norü igücatama nataeguû."
+  },
+  {
+    "id": 68,
+    "pt": "As negações funcionam como um relógio com duas posições: a posição verdadeira e a posição falsa.",
+    "tca": "Rü uegüruû niyaugü i nhama wü’i relógio i tare natchica nü’ü ngemaürüü: rü natchica aicuma nacü natchica tama aicuma."
+  },
+  {
+    "id": 69,
+    "pt": "Cada vez que negamos, o ponteiro muda de posição.",
+    "tca": "Rü ngeguma irüuegügu, rü unetaruû rü to’ natchicawa naû."
+  },
+  {
+    "id": 70,
+    "pt": "Negamos uma vez, ele troca a posição; negamos duas vezes, ele volta ao começo.",
+    "tca": "Wü’i arü irüuegügu, nüma rü to’ inatchicamaã nügü natchopetü; rü tare arü irüuegügu, nüma rü norü igücatama nataegu."
+  },
+  {
+    "id": 71,
+    "pt": "Tabela verdade da conjunção",
+    "tca": "Tabela verdade rü wü’iwa rünaü’arü"
+  },
+  {
+    "id": 72,
+    "pt": "Temos as seguintes proposições:",
+    "tca": "Tü’ü nangemagü i nhama proposições:"
+  },
+  {
+    "id": 73,
+    "pt": "Yuri gosta de passear de barco.",
+    "tca": "Yuri nü’ü name na wapuru’maã narü ûãneî"
+  },
+  {
+    "id": 74,
+    "pt": "Maira gosta de bolo de cenoura.",
+    "tca": "Maira cenoura arü bolo tü’ü name."
+  },
+  {
+    "id": 75,
+    "pt": "Observando a tabela, podemos concluir que a proposição composta, “p” e “q”, será verdadeira apenas quando p for verdade e q for verdade ao mesmo tempo.",
+    "tca": "Rü tabela’ü tarüdaunü, rü nü’ü ta’daugü i proposição tare, “p” nhumatchi “q”, rü aicuma tani’î ngeguma p aicuma ni’îgu nhumatchi q aicuma ni’îgu’ta."
+  },
+  {
+    "id": 76,
+    "pt": "Tabela verdade da disjunção",
+    "tca": "Tabela verdade rü wü’i iunetaü’arü"
+  },
+  {
+    "id": 77,
+    "pt": "Tainá está lendo um livro.",
+    "tca": "Tainá rü ta’ugütae wü’i poperawa."
+  },
+  {
+    "id": 78,
+    "pt": "Caio está pescando.",
+    "tca": "Caio rü na’tchoniê."
+  },
+  {
+    "id": 79,
+    "pt": "Observando a tabela, podemos concluir que a proposição composta, “p” ou “q”, será falsa apenas quando p e q forem falsas ao mesmo tempo.",
+    "tca": "Rü tabela’ü tarüdaunü, rü nü’ü ta’daugü i proposição tare, “p” rüena “q”, rü tama aicuma tani’î ngeguma p nhumatchi q tchi ngema tare tama aicuma ni’îgügu."
+  },
+  {
+    "id": 80,
+    "pt": "Vamos Praticar!",
+    "tca": "Ngiã Praticar!"
+  },
+  {
+    "id": 81,
+    "pt": "Exercícios",
+    "tca": "Puracugü"
+  },
+  {
+    "id": 82,
+    "pt": "Diga se as declarações a seguir são proposições ou não.",
+    "tca": "Nü’ü i’u tchi nhama i deagü na proposições rüena tama ni’îgüü."
+  },
+  {
+    "id": 83,
+    "pt": "2 é par.",
+    "tca": "2 rü ãmücü’ü ni’î."
+  },
+  {
+    "id": 84,
+    "pt": "Quando é seu aniversário?",
+    "tca": "Nhugu tani’î curü taunecü ?"
+  },
+  {
+    "id": 85,
+    "pt": "Amanhã é domingo.",
+    "tca": "Mo’û rü yüü ni’î."
+  },
+  {
+    "id": 86,
+    "pt": "Que horas são?",
+    "tca": "Nhure ora ni’î?"
+  },
+  {
+    "id": 87,
+    "pt": "Hoje está chovendo.",
+    "tca": "Nhuma rü na’pu."
+  },
+  {
+    "id": 88,
+    "pt": "Escreva duas proposições baseadas em situações do seu dia a dia.",
+    "tca": "Nawü i tare namatü i ngupetü’ü i curü nguneîtchigüwa."
+  },
+  {
+    "id": 89,
+    "pt": "Diga qual conectivo lógico está sendo usado nas seguintes proposições:",
+    "tca": "Nü’ü i’u ngeîrüü’ü ni’î i namatü i tare rüena to’omawatchigü idaü i nama’ã ü’ü proposições’gü:"
+  },
+  {
+    "id": 90,
+    "pt": "Está chovendo ou está fazendo sol.",
+    "tca": "Rü na’pu rüena na’nguetü."
+  },
+  {
+    "id": 91,
+    "pt": "O rio está cheio e os animais já comeram.",
+    "tca": "Rü tatü rü narü’bai nacü naêîgü rü marü natchibüeî."
+  },
+  {
+    "id": 92,
+    "pt": "A arara não é azul.",
+    "tca": "Rü tchara rü tama na yau."
+  },
+  {
+    "id": 93,
+    "pt": "Hoje colhemos frutas ou pescamos.",
+    "tca": "Nori rü nanetü ta’bugü rüena ta’tchoniêgü."
+  },
+  {
+    "id": 94,
+    "pt": "As crianças não foram para a aula.",
+    "tca": "Rü buûgü rü tama ngu’wa na’î."
+  },
+  {
+    "id": 95,
+    "pt": "Dada as proposições:",
+    "tca": "Ãü i proposições:"
+  },
+  {
+    "id": 96,
+    "pt": "O barco está funcionando.",
+    "tca": "Rü wapuru rü name’taã."
+  },
+  {
+    "id": 97,
+    "pt": "Hoje está ensolarado.",
+    "tca": "Nhuma rü nangu’etü."
+  },
+  {
+    "id": 98,
+    "pt": "Nós vamos pescar.",
+    "tca": "Yiemagü tchoniwa ta’î."
+  },
+  {
+    "id": 99,
+    "pt": "Escreva as frases em português das seguintes combinações:",
+    "tca": "Nawü i namatügü i tomagawa i nhama inügüraügü’ü:"
+  },
+  {
+    "id": 100,
+    "pt": "Seja \"p\" e \"q\" proposições quaisquer, crie a tabela verdade de p ou q",
+    "tca": "Wo’tchi \"p\" nhumatchi \"q\" proposições nümaü ni’îgu, na’ü i (tabela aicuma) i p rüena q"
+  },
+  {
+    "id": 101,
+    "pt": "PROJETO ENSINANDO LÓGICA COMPUTACIONAL PARA COMUNIDADES INDÍGENAS",
+    "tca": "PURACÜ LÓGICA COMPUTACIONAL’CA TÜ’Û TA’NGUEEE YA MAIYUGÜ’ARÜ IÃNEGÜ"
+  },
+  {
+    "id": 102,
+    "pt": "AUTORES",
+    "tca": "WÜETARUÛGÜ"
+  },
+  {
+    "id": 103,
+    "pt": "Alunos de Computação",
+    "tca": "Nguetanü’ügü i Computação’arü"
+  },
+  {
+    "id": 104,
+    "pt": "PROFESSORES",
+    "tca": "NGUERUÛGÜ"
+  },
+  {
+    "id": 105,
+    "pt": "Os conjuntos são usados para agrupar objetos.",
+    "tca": "Rü natücumügü rü nama’ã naügü na wüiwa’rünaüca i ngemaügü."
+  },
+  {
+    "id": 106,
+    "pt": "Geralmente, os objetos de um conjunto têm propriedades semelhantes.",
+    "tca": "Guûma’ãcü, rü wü’i natücumü’arü ngemaü nü’ü nangema i natchicagü wü’iguû."
+  },
+  {
+    "id": 107,
+    "pt": "Por exemplo, todos os animais que sabem nadar forma um conjunto.",
+    "tca": "Rü cua’ãtchiruû, guûma i ngema naêîgü i nü’ü cua’êî na niwegü’ü rü ningu’utchi wü’i natücumü."
+  },
+  {
+    "id": 108,
+    "pt": "O que são conjuntos?",
+    "tca": "Tacü ni’î i ngema natücumügü?"
+  },
+  {
+    "id": 109,
+    "pt": "Conjuntos são agrupamentos formado por elementos.",
+    "tca": "Natücumügü rü ngema nutaqueeî i elemento’wa ü’ü."
+  },
+  {
+    "id": 110,
+    "pt": "No geral, esses elementos são agrupados por terem alguma característica em comum.",
+    "tca": "Rü guûwa, i ngema elemento’gü rü nügüwa nutaqueegü’ü naca ni’î na nü’ü nangemaü nümaü i nügüraügü’ü."
+  },
+  {
+    "id": 111,
+    "pt": "Conjuntos são nomeados por uma letra maíscula",
+    "tca": "Natucumugü rü wü’ine letra âûnema’ã narü üega"
+  },
+  {
+    "id": 112,
+    "pt": "Conjunto de frutas da cor vermelha",
+    "tca": "Da’û i nanetü tucumü"
+  },
+  {
+    "id": 113,
+    "pt": "Conjunto de mamíferos",
+    "tca": "Naêî tucumü"
+  },
+  {
+    "id": 114,
+    "pt": "Conjunto dos números pares",
+    "tca": "Numero’gü i taremücügü’ü tucumü"
+  },
+  {
+    "id": 115,
+    "pt": "Elementos do conjunto",
+    "tca": "Wü’itchigü i natucumüwa ngemaü"
+  },
+  {
+    "id": 116,
+    "pt": "Os objetos nos conjuntos são chamados de elementos do conjunto.",
+    "tca": "Rü ngema natucumüwa ngemagü’ü rü wü’itchigü’ãcü naca."
+  },
+  {
+    "id": 117,
+    "pt": "Diz-se que os elementos pertencem ao conjunto.",
+    "tca": "Nü’ü niu na wü'itchigü i natucumü’arü niî’î."
+  },
+  {
+    "id": 118,
+    "pt": "Iremos representar os conjuntos utilizando Diagramas de Venn.",
+    "tca": "Rü tanawegü’ta i natucumügü i nama’ã tarü’ügü i Diagrama’gü i Venn’arü."
+  },
+  {
+    "id": 119,
+    "pt": "O Diagrama de Venn do conjunto formado pelas letras da palavra “abelha” tem a seguinte forma:",
+    "tca": "Rü Diagrama i Venn i natucumü’arü nama’ã na’ü i naega arü letragüma’ã “abelha” nü’ü nangema i nhama’ãcü ü’ü:"
+  },
+  {
+    "id": 120,
+    "pt": "União entre dois conjunto",
+    "tca": "Nügüwa tchocu’û i ngema tare natucumügü"
+  },
+  {
+    "id": 121,
+    "pt": "Uma das operações que podemos realizar entre dois conjuntos é a união.",
+    "tca": "wü’i ta operações i nama’ã ta tarü’ü i ngema tare natucumü rü ngema rü nügüwa tchocuû’maã ta ni’î rüü’ü."
+  },
+  {
+    "id": 122,
+    "pt": "A união de dos conjuntos A e B é denotada como A U B.",
+    "tca": "Rü nügüwa tchocuû’arü natucumügü i A rü B, rü ngo’ü i A U B ãcü."
+  },
+  {
+    "id": 123,
+    "pt": "A união é o conjunto que contém os elementos que estão em A ou em B, ou em ambos.",
+    "tca": "Rü nügüwa tchocuû rü natucumü i nü’ü ngemaü i wü’itchigü i natucumü’arü i A’wa ngemagü’ü rüena B’wa, rüena i tarewatama."
+  },
+  {
+    "id": 124,
+    "pt": "Dado os conjuntos A = {1, 3, 5, 7} e B = {2, 4, 6, 8}, a união de A e B é:",
+    "tca": "Natucumü i ãü i A = {1, 3, 5, 7} rü B = {2, 4, 6, 8}, rü nügüwa tchocuû’arü A rü B ngema rü:"
+  },
+  {
+    "id": 125,
+    "pt": "Interseção entre dois conjuntos",
+    "tca": "Nügüma’ã wü’iguû nügüwa i tare natucumügü"
+  },
+  {
+    "id": 126,
+    "pt": "Outra operação entre conjuntos é a interseção.",
+    "tca": "To’ operação i nügüwa i natucumügü rü ngema rü nügüma’ã wü’iguû (interseção) ni’î."
+  },
+  {
+    "id": 127,
+    "pt": "A interseção entre dois conjuntos A e B é nada mais que o conjunto formado pelos elementos que pertencem a A e B simultaneamente.",
+    "tca": "Rü nügüma’ã wü’iguû nügüwa i tare natucumügü i A rü B rü ngema rü natucumü i elemento’güwa ü’ü i ngegumatama i A arü rü B arü iî’î."
+  },
+  {
+    "id": 128,
+    "pt": "Sua representação é A ∩ B.",
+    "tca": "Norü natchicüna’â rü A ∩ B ni’î."
+  },
+  {
+    "id": 129,
+    "pt": "Dado o conjunto A formado pelas letras da palavra “banana” e o conjunto B formado pelas letras da palavra “melancia”, quais elementos fazem parte do conjunto A ∩ B?",
+    "tca": "Natucumü i A ãü i ü’ü nama’ã i naega’arü letra’gümaã “po’i” rü nhumatchi natucumü i B ü’ü nama’ã i naega’arü letra’gümaã “woratchia”, Ngeî’rüü’ü elemento’gü i natucumü A ∩ B wa nangemagü?"
+  },
+  {
+    "id": 130,
+    "pt": "As letras que aparecem mais de uma vez aparecem apenas uma vez no conjunto.",
+    "tca": "Rü letra’gü i tare’arü rüena mu’arü ngo’ü rü nango’ ta i wü’iarütama i natucumüwa."
+  },
+  {
+    "id": 131,
+    "pt": "Dado os conjuntos formados pelas letras das palavras borracha e caneta, qual a união desses dois conjuntos?",
+    "tca": "Âü i natucumügü ü’ü naega i borracha rü caneta arü letra’maã, ngeî’rüü’ü i nha’ã tare natucumü nügüwa nitchocu?"
+  },
+  {
+    "id": 132,
+    "pt": "A = {c, a, n, e, t}, conjunto formado pelas letras da palavra caneta.",
+    "tca": "A = {c, a, n, e, t}, natucumü ü’ü i naega caneta arü letra’gümaã."
+  },
+  {
+    "id": 133,
+    "pt": "B = {b, o, r, a, c, h}, conjunto formado pelas letras da palavra borracha.",
+    "tca": "B = {b, o, r, a, c, h}, natucumü ü’ü i naega borracha arü letra’gümaã."
+  },
+  {
+    "id": 134,
+    "pt": "Quais letras estão simultaneamente nas palavras \"macaco\" e \"cabana\"?",
+    "tca": "Ngeî’rüüü letra’gü ngegumatama nangemagü i naega i \"macaco\" rü \"cabana\"?"
+  },
+  {
+    "id": 135,
+    "pt": "Ou seja, qual a intersecção entre o os conjuntos formados pelas letras dessas palavras?",
+    "tca": "Rüena tchi, ngeî’rüü’ü i nügüma’ã wü’iguû nügüwa i natucumü ü’ü i nama’ã nha’ã naega arü letra’maã?"
+  },
+  {
+    "id": 136,
+    "pt": "C = {m, a, c, o}, conjunto formado pelas letras da palavra macaco.",
+    "tca": "C = {m, a, c, o}, natucumü ü’ü i naega macaco arü letra’gümaã."
+  },
+  {
+    "id": 137,
+    "pt": "D = { c, a, b, n}, conjunto formado pelas letras da palavra cabana.",
+    "tca": "D = { c, a, b, n}, natucumü ü’ü i naega cabana arü letra’gümaã."
+  },
+  {
+    "id": 138,
+    "pt": "Dados os conjuntos E = {1, 2, 3, 5, 8}, F = {2, 4, 6, 8, 10} e G = {1, 3, 5, 7, 9}, faça o diagrama de Venn dos três conjuntos.",
+    "tca": "Natucumü i E ãü = {1, 2, 3, 5, 8}, F = {2, 4, 6, 8, 10} rü G = {1, 3, 5, 7, 9}, Na’ü i diagrama i Venn’arü i tamaêpü natucumü."
+  },
+  {
+    "id": 139,
+    "pt": "A álgebra é uma área da Matemática que estuda a manipulação de símbolos, números e as relacionando operações esses básicas elementos entre si.",
+    "tca": "Rü álgebra rü wü’i natchica i Matemática’arü i naca ngu’u i simbolo’gü, número’gü nhumatchi i operações tautchagü’ü nügüma’ã na’ãmücügü’û i ngema elemento’gü i nügüwa’tama."
+  },
+  {
+    "id": 140,
+    "pt": "A álgebra matemática ajuda no desenvolvimento do raciocínio lógico e na resolução de problemas.",
+    "tca": "Rü álgebra matemática tü’ü narü’ngüêê i torü înüwa na yeerawa naû’ûca nhumatchi i ngema gutchaügü’arü nguê’êwa."
+  },
+  {
+    "id": 141,
+    "pt": "O que é Álgebra Matemática?",
+    "tca": "Rü tacü ni’î i Álgebra Matemática?"
+  },
+  {
+    "id": 142,
+    "pt": "A álgebra utiliza elementos para resolver problemas e modelar situações do mundo real.",
+    "tca": "Rü álgebra rü elemento’güma’ã narü’ü na niã’nguêêî i gutchaügü nhumatchi narü’ütchicünaãü i naãne’arü nacüma."
+  },
+  {
+    "id": 143,
+    "pt": "Esses elementos incluem letras para representar valores desconhecidos, símbolos matemáticos e operações como soma, subtração, multiplicação e divisão, que permitem estabelecer e verificar relações de igualdade e desigualdade.",
+    "tca": "Ngema elemento’gü niã’ücutchi i letra’gü na narü’ütchicüna’ãgüüca i norü valor’gü i tama nü’ü icua’eî, símbolo’gü i matemática’arügü nhumatchi operações i soma, subtração, multiplicação nhumatchi divisão’gü rü’ü iîgüü, i na nama’ã narü’üü nhumatchi narü’ngugü’ü nügüma’ã ãmücügü’ü i wü’igu’û nhumatchi tama wü’igu’û."
+  },
+  {
+    "id": 144,
+    "pt": "Operações básicas",
+    "tca": "Operações tautchagü’ü"
+  },
+  {
+    "id": 145,
+    "pt": "É uma operação que combina dois ou mais números, acrescenta uma quantidade a uma quantia já existente para obter um novo número.",
+    "tca": "Rü wü’i operação i tare rüena to’omatchigü número’gü ngemaü, norü mutanüwa wü’i ni’ücutchi i wü’i norü mu’ marü ngemaüwa na to’ wü’i ngewacaü’ü i número ngemaüca."
+  },
+  {
+    "id": 146,
+    "pt": "Esta operação é caracterizada pelo símbolo de adição ( + ).",
+    "tca": "Nha’â operação rü símbolo nü’ü cua’ü i adição’arü ni’î ( + )."
+  },
+  {
+    "id": 147,
+    "pt": "É uma operação que retira uma quantia de uma quantia já existente, ou seja, diminui um valor de um outro número.",
+    "tca": "Rü wü’i operação irü’üütchi’î wü’i norü mu’ i wü’i norü mu’ marü ngemaüwa, rüena nha’ü, narü’iraeê wü’i valor i to’ wü’i número’arü."
+  },
+  {
+    "id": 148,
+    "pt": "Esta operação é caracterizada pelo símbolo de subtração ( - ).",
+    "tca": "Nha’â operação rü símbolo nü’ü cua’ü i subtração’arü ni’î ( - )."
+  },
+  {
+    "id": 149,
+    "pt": "É uma operação sucessiva de adição, ou seja, somamos o mesmo número uma determinada de vezes, essa quantidade de vezes que vai somar é determinado pelo número que está multiplicando.",
+    "tca": "Rü wü’i operação i adição’arü i ngematama ida’û, rüena nha’ü, tanangugügü i ngema’tama i numero i wü’i nhure’arü ngu’güü, i ngema norü mu’ i nhure’arü ngu’güü rü ta narü soma rü número tani’î rüngugü’ü i ngema nügümaã multiplica’güü."
+  },
+  {
+    "id": 150,
+    "pt": "Esta operação é caracterizada pelo símbolo de multilicação ( x ).",
+    "tca": "Nha’â operação rü símbolo nü’ü cua’ü i multiplicação’arü ni’î ( x )."
+  },
+  {
+    "id": 151,
+    "pt": "É uma operação que distribui uma quantidade em partes iguais.",
+    "tca": "Rü wü’i operação i niã’nuûtchi wü’i norü mu i’ nümaügüwa nawü’iguûca."
+  },
+  {
+    "id": 152,
+    "pt": "Esta operação é caracterizada pelo símbolo de divisão ( / ).",
+    "tca": "Nha’â operação rü símbolo nü’ü cua’ü i divisão’arü ni’î ( / )."
+  },
+  {
+    "id": 153,
+    "pt": "Relação de Igualdade",
+    "tca": "Wü’iguû’arü nügüma’ã ãmücüü"
+  },
+  {
+    "id": 154,
+    "pt": "Uma relação de igualdade significa que os lados tem o mesmo valor, é representado pelo símbolo de igualdade ( = ).",
+    "tca": "Wü’i wü’iguû i nügümaã ãmücü’ü nü’ü ni’u na ngema nacüwa nü’ü nangemaü i ngema’tama valor, rü ngema rü símbolo i wü’iguû’ãcü na’we ( = )."
+  },
+  {
+    "id": 155,
+    "pt": "João tem 3 maçãs em uma mão e 3 maçãs na outra.",
+    "tca": "Yuã nü’ü nangema i 3 maçã i wü’i namewa nhumatchi 3 maçã i naîmewa."
+  },
+  {
+    "id": 156,
+    "pt": "Ele tem a mesma quantidade nos dois lados.",
+    "tca": "Nüma nü’ü nangema i ngematama norü mu’ i tare namewagü."
+  },
+  {
+    "id": 157,
+    "pt": "Funciona como uma balança em que os dois lados estão com o mesmo peso.",
+    "tca": "Ni’yau nhama wü’i balança’rüü i tare nacüwa ingemaürü’ü nama’ã i ngematama norü ya’."
+  },
+  {
+    "id": 158,
+    "pt": "Relação de Desigualdade",
+    "tca": "Wü’iguû’arü tama nügüma’ã ãmücüü"
+  },
+  {
+    "id": 159,
+    "pt": "Uma relação de desigualdade significa que os lados tem valores diferentes, é representado por vários símbolos < (menor que), >(maior que),≤ (menor ou igual a), ≥ (maior ou igual a).",
+    "tca": "Wü’i wü’iguû i tama nügümaã ãmücü’ü nü’ü ni’u na ngema nacüwagü nü’ü nangemaü i valor’gü itomaraü’ü, rü ngema rü itotchigüraü’ü símbolo’maã narü’we < (nü’ü narü ira’maê), >(nü’ü narü ãû’maê),≤ (ira’ü rüena wü’iguû ngemamaã), ≥ (ãû rüena wü’iguû ngemamaã)."
+  },
+  {
+    "id": 160,
+    "pt": "1 < 9, significa que 1 é menor que 9",
+    "tca": "1 < 9, nü’ü ni’u na 1 rü 9'î narü iramaêî."
+  },
+  {
+    "id": 161,
+    "pt": "Funciona como uma balança em que os dois lados tem pesos diferentes, um lado é mais pesado que o outro.",
+    "tca": "Ni’yau nhama wü’i balança’rüü i tare nacüwa i nü’ü ngemaü i norü ya’ itomaraü’ü, wü’i nacüwa rü ãû’ri narü yama’ê i to’ü."
+  },
+  {
+    "id": 162,
+    "pt": "Operações com as Relações",
+    "tca": "Operações i nama’ã i nügüma’ã ãmücügü’ü"
+  },
+  {
+    "id": 163,
+    "pt": "Vamos verificar alguns exemplos combinando as operações básicas com as relações de igualdade e desigualdade para verificar se uma sentença matemática é verdadeira ou não.",
+    "tca": "Ngi’â tarü’ngugü nümaü i cua’ãtchiru’ûgü i rü wü’iguêê’î i operações tautchagü’ü nama’ã i nügüma’ã ãmücügü’ü i wü’igu’êêruû nhumatchi tama wü’igu’êêruû na narü’ngugü’üca tchi wü’i matemática’arü sentença rü aicuma niî’î rüena tama."
+  },
+  {
+    "id": 164,
+    "pt": "Exemplo 1: 2 x 3 < 12 / 4? Não, neste caso 6 é maior que 3, então a afirmação é falsa.",
+    "tca": "Cua’ãtchiruû 1: 2 x 3 < 12 / 4? Tama, rü nhaã’wanacü 6 rü 3'î narü ãû’maê, ngega’nacü norü u’ rü tama aicuma ni’î."
+  },
+  {
+    "id": 165,
+    "pt": "Exemplo 2: 5 + 5 = 21 - 11? Sim, neste caso 10 é igual a 10, então a afirmação é verdadeira.",
+    "tca": "Cua’ãtchiruû 2: 5 + 5 = 21 - 11? Ü’ü, rü nhaã’wanacü 10 rü 10'tama inidau, ngega’nacü norü u’ rü aicuma ni’î."
+  },
+  {
+    "id": 166,
+    "pt": "Exemplo 3: 15 - 6 > 15 - 5? Não, neste caso 9 é menor que 10, então a afirmação é falsa.",
+    "tca": "Cua’ãtchiruû 3: 15 - 6 > 15 - 5? Tama, rü nhaã’wanacü 9 rü 10'î narü ira’maê, ngega’nacü norü u’ rü tama aicuma ni’î."
+  },
+  {
+    "id": 167,
+    "pt": "Exemplo 4: 1 x 7 < 4 + 3? Não, neste caso 7 é igual a 7, então a afirmação é falsa.",
+    "tca": "Cua’ãtchiruû 4: 1 x 7 < 4 + 3? Tama, rü nhaã’wanacü 7 rü 7'tama inidau, ngega’nacü norü u’ rü tama aicuma ni’î ."
+  },
+  {
+    "id": 168,
+    "pt": "Diga se as afirmações matemáticas a seguir são verdadeiras ou falsas.+",
+    "tca": "Nü’û i’u tchi nhaãma matemática’gü nü’ü iu’u rü aicuma niîgü’ü rüena tama aicuma niîgü’ü."
+  }
+]

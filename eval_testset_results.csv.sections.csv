@@ -1,0 +1,17 @@
+section,src_lang,tgt_lang,n,chrf,bleu,repeat_pct
+agradecimentos,pt,tca,2,12.24,2.04,0.0
+agradecimentos,tca,pt,2,21.57,4.49,0.0
+prefacio,pt,tca,6,18.35,0.57,0.0
+prefacio,tca,pt,6,18.94,2.27,0.0
+sec1,pt,tca,11,21.59,3.07,0.0
+sec1,tca,pt,11,23.0,4.37,0.0
+sec3,pt,tca,1,27.93,0.0,0.0
+sec3,tca,pt,1,33.78,0.0,0.0
+sec4,pt,tca,1,13.91,0.0,0.0
+sec4,tca,pt,1,16.31,0.0,0.0
+sec5,pt,tca,1,7.69,0.0,0.0
+sec5,tca,pt,1,23.96,4.99,0.0
+sec6,pt,tca,2,16.29,1.12,0.0
+sec6,tca,pt,2,19.17,2.45,0.0
+sec7,pt,tca,1,22.88,3.5,0.0
+sec7,tca,pt,1,14.23,2.85,0.0

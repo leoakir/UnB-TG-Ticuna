@@ -1,0 +1,1363 @@
+Dictionary cleaning report
+============================================================
+
+Input: 9200 entries
+  -> 6605 word-pair candidates, 2595 phrases
+
+Output: dicionario_MADLAD_10b_word_pairs.json (9183 rows), dicionario_MADLAD_10b_phrases.json (2591 rows)
+
+1. HARD-EXCLUDED (pure grammatical explanation, no headword given): 28
+------------------------------------------------------------
+  id=    3  tca='a'                   es='Se usa para conectar sustantivos, pronombres y adjetivos en tiempo presente o futuro.'
+  id=   64  tca='-ãcüma'              es='Indica acción continua.'
+  id=  116  tca='ai'                  es='Indica cualquier tipo de tigre, jaguar o leopardo.'
+  id=  587  tca='-chaü̃'              es='Indica deseo de hacer algo.'
+  id=  981  tca='-cü'                 es='Se usa para formar sustantivos.'
+  id= 1227  tca='-e'                  es='Se añade al verbo para indicar plural.'
+  id= 1238  tca='-ẽẽ'                 es='Indica causativo.'
+  id= 1248  tca='-era'                es='Indica comparación.'
+  id= 1249  tca='-ẽra'                es='Indica comparación.'
+  id= 1285  tca='ga'                  es='Se usa para conectar sustantivos, adjetivos y pronombres.'
+  id= 1389  tca='-gü'                 es='Se añade al verbo para indicar plural.'
+  id= 1392  tca='i-'                  es='Indica la clase de verbos que empiezan con tono bajo.'
+  id= 1394  tca='í-'                  es='Indica la clase de verbos que empiezan con tono alto.'
+  id= 1396  tca='í-'                  es='Indica aspecto progresivo.'
+  id= 2026  tca='-ira'                es='Indica comparación.'
+  id= 2030  tca='-ĩra'                es='Indica comparación.'
+  id= 2428  tca='moxẽ inaxã'          es='agradecer, expresar gratitud'
+  id= 7390  tca='nüxü̃ naxuneta'      es='señalar, indicar'
+  id= 8033  tca='-püxcüna'            es='Indica que una acción se hace cierto número de veces.'
+  id= 8102  tca='-axü̃̃́ , -cax tá'   es='Indica tiempo futuro.'
+  id= 8283  tca='taunecüãx̃́ ü̃'      es='Indica que tiene cierta edad.'
+  id= 8959  tca='wü̃́xüchiruxü̃'      es='Indica una herramienta puntiaguda para marcar.'
+  id= 8961  tca='-xe'                 es='Se añade al verbo para formar sustantivos.'
+  id= 8963  tca='-xira'               es='Indica comparación.'
+  id= 8967  tca='-xĩra'               es='Indica comparación'
+  id= 8968  tca='-xü̃'                es='Se añade al verbo para formar sustantivos.'
+  id= 8969  tca='-xü̃ne'              es='Se añade al verbo para formar sustantivos.'
+  id= 8971  tca='ya'                  es='Se usa para conectar sustantivos, adjetivos y pronombres en oraciones en tiempo presente o futuro.'
+
+2. SYNONYM PAIRING (pt/es split and paired positionally): 316 entries needed truncation due to mismatched counts
+------------------------------------------------------------
+  id=96
+    original pt='decreto, lei, lei'  es='decreto, ley'
+    kept pairs: [('decreto', 'decreto'), ('lei', 'ley')]
+    discarded pt (extra, no es match): ['lei']
+  id=122
+    original pt='gemido, lamento, lamentação'  es='gemido, quejido'
+    kept pairs: [('gemido', 'gemido'), ('lamento', 'quejido')]
+    discarded pt (extra, no es match): ['lamentação']
+  id=129
+    original pt='cachorro, cachorro, perrito'  es='cachorro, perrito'
+    kept pairs: [('cachorro', 'cachorro'), ('cachorro', 'perrito')]
+    discarded pt (extra, no es match): ['perrito']
+  id=143
+    original pt='genuíno, verdadeiro, verdadeiro'  es='genuino, verdadero'
+    kept pairs: [('genuíno', 'genuino'), ('verdadeiro', 'verdadero')]
+    discarded pt (extra, no es match): ['verdadeiro']
+  id=171
+    original pt='presente, presente, presente'  es='regalo, obsequio'
+    kept pairs: [('presente', 'regalo'), ('presente', 'obsequio')]
+    discarded pt (extra, no es match): ['presente']
+  id=178
+    original pt='Cozinha: Sul-americana'  es='sudamericano, sudamericana'
+    kept pairs: [('Cozinha: Sul-americana', 'sudamericano')]
+    discarded es (extra, no pt match): ['sudamericana']
+  id=230
+    original pt='perigo, risco, risco'  es='peligro, riesgo'
+    kept pairs: [('perigo', 'peligro'), ('risco', 'riesgo')]
+    discarded pt (extra, no es match): ['risco']
+  id=238
+    original pt='carro, carro, carro'  es='automóvil, carro'
+    kept pairs: [('carro', 'automóvil'), ('carro', 'carro')]
+    discarded pt (extra, no es match): ['carro']
+  id=257
+    original pt='muito, muito, muito'  es='sumamente, demasiado'
+    kept pairs: [('muito', 'sumamente'), ('muito', 'demasiado')]
+    discarded pt (extra, no es match): ['muito']
+  id=339
+    original pt='De ambos os lados, repletos de folhas.'  es='frondoso'
+    kept pairs: [('De ambos os lados', 'frondoso')]
+    discarded pt (extra, no es match): ['repletos de folhas.']
+  id=363
+    original pt='talvez, possivelmente, possivelmente'  es='quizá, acaso, tal vez, posiblemente'
+    kept pairs: [('talvez', 'quizá'), ('possivelmente', 'acaso'), ('possivelmente', 'tal vez')]
+    discarded es (extra, no pt match): ['posiblemente']
+  id=390
+    original pt='tempestade; tempestade de neve'  es='tormenta, tempestad; huracán'
+    kept pairs: [('tempestade; tempestade de neve', 'tormenta')]
+    discarded es (extra, no pt match): ['tempestad; huracán']
+  id=401
+    original pt='garrafa, frasco, jarra'  es='botella, frasco'
+    kept pairs: [('garrafa', 'botella'), ('frasco', 'frasco')]
+    discarded pt (extra, no es match): ['jarra']
+  id=416
+    original pt='menino, criança, criança'  es='nene, criatura'
+    kept pairs: [('menino', 'nene'), ('criança', 'criatura')]
+    discarded pt (extra, no es match): ['criança']
+  id=446
+    original pt='oposto, contrário, contrário'  es='opuesto, contrario'
+    kept pairs: [('oposto', 'opuesto'), ('contrário', 'contrario')]
+    discarded pt (extra, no es match): ['contrário']
+  id=488
+    original pt='carneiro, carneiro, ovelha'  es='carnero, oveja'
+    kept pairs: [('carneiro', 'carnero'), ('carneiro', 'oveja')]
+    discarded pt (extra, no es match): ['ovelha']
+  id=516
+    original pt='católico, católica, católico'  es='católico, católica'
+    kept pairs: [('católico', 'católico'), ('católica', 'católica')]
+    discarded pt (extra, no es match): ['católico']
+  id=534
+    original pt='O que você diz?'  es='¿qué tal?, ¿qué dices?'
+    kept pairs: [('O que você diz?', '¿qué tal?')]
+    discarded es (extra, no pt match): ['¿qué dices?']
+  id=549
+    original pt='sacerdote, padre, cura'  es='sacerdote, cura'
+    kept pairs: [('sacerdote', 'sacerdote'), ('padre', 'cura')]
+    discarded pt (extra, no es match): ['cura']
+  id=670
+    original pt='dano, fracasso, falha'  es='daño, fracaso'
+    kept pairs: [('dano', 'daño'), ('fracasso', 'fracaso')]
+    discarded pt (extra, no es match): ['falha']
+  id=684
+    original pt='dano, fracasso, falha'  es='daño, fracaso'
+    kept pairs: [('dano', 'daño'), ('fracasso', 'fracaso')]
+    discarded pt (extra, no es match): ['falha']
+  id=690
+    original pt='prejuízo, ofensa, dano'  es='perjuicio, ofensa'
+    kept pairs: [('prejuízo', 'perjuicio'), ('ofensa', 'ofensa')]
+    discarded pt (extra, no es match): ['dano']
+  id=754
+    original pt='cabide, gancho, gancho'  es='colgador, gancho'
+    kept pairs: [('cabide', 'colgador'), ('gancho', 'gancho')]
+    discarded pt (extra, no es match): ['gancho']
+  id=757
+    original pt='cadeado, fechadura, fechadura'  es='candado, cerradura'
+    kept pairs: [('cadeado', 'candado'), ('fechadura', 'cerradura')]
+    discarded pt (extra, no es match): ['fechadura']
+  id=771
+    original pt='peixe, peixe, peixe'  es='pescado, pez'
+    kept pairs: [('peixe', 'pescado'), ('peixe', 'pez')]
+    discarded pt (extra, no es match): ['peixe']
+  id=795
+    original pt='soldado, militar, militar'  es='soldado, militar'
+    kept pairs: [('soldado', 'soldado'), ('militar', 'militar')]
+    discarded pt (extra, no es match): ['militar']
+  id=861
+    original pt='Corneta, Trompete, Trompete'  es='corneta, trompeta'
+    kept pairs: [('Corneta', 'corneta'), ('Trompete', 'trompeta')]
+    discarded pt (extra, no es match): ['Trompete']
+  id=896
+    original pt='conhecimento, sabedoria, conhecimento'  es='conocimiento, sabiduría'
+    kept pairs: [('conhecimento', 'conocimiento'), ('sabedoria', 'sabiduría')]
+    discarded pt (extra, no es match): ['conhecimento']
+  id=903
+    original pt='exemplo, exemplo, exemplo'  es='ejemplo, muestra'
+    kept pairs: [('exemplo', 'ejemplo'), ('exemplo', 'muestra')]
+    discarded pt (extra, no es match): ['exemplo']
+  id=966
+    original pt='até logo! (para uma pessoa)'  es='¡adiós!, ¡hasta luego! (a una sola persona)'
+    kept pairs: [('até logo!', '¡adiós!')]
+    discarded es (extra, no pt match): ['¡hasta luego!']
+  id=1030
+    original pt='camisa, camiseta, t-shirt'  es='camisa, camiseta'
+    kept pairs: [('camisa', 'camisa'), ('camiseta', 'camiseta')]
+    discarded pt (extra, no es match): ['t-shirt']
+  id=1056
+    original pt='médico, enfermeiro, enfermeira'  es='médico, enfermero'
+    kept pairs: [('médico', 'médico'), ('enfermeiro', 'enfermero')]
+    discarded pt (extra, no es match): ['enfermeira']
+  id=1100
+    original pt='riquezas, tesouro, tesouro'  es='riquezas, tesoro'
+    kept pairs: [('riquezas', 'riquezas'), ('tesouro', 'tesoro')]
+    discarded pt (extra, no es match): ['tesouro']
+  id=1104
+    original pt='imposto, tributo, tributo'  es='impuesto, tributo'
+    kept pairs: [('imposto', 'impuesto'), ('tributo', 'tributo')]
+    discarded pt (extra, no es match): ['tributo']
+  id=1115
+    original pt='Prata (em bruto, não refinada)'  es='plata (en bruto sin purificar)'
+    kept pairs: [('Prata (em bruto', 'plata')]
+    discarded pt (extra, no es match): ['não refinada)']
+  id=1131
+    original pt='carabina, rifle, rifle'  es='carabina, rifle'
+    kept pairs: [('carabina', 'carabina'), ('rifle', 'rifle')]
+    discarded pt (extra, no es match): ['rifle']
+  id=1152
+    original pt='actor, actora, actriz'  es='actor, actriz'
+    kept pairs: [('actor', 'actor'), ('actora', 'actriz')]
+    discarded pt (extra, no es match): ['actriz']
+  id=1158
+    original pt='médico, médico, doutor'  es='médico, doctor'
+    kept pairs: [('médico', 'médico'), ('médico', 'doctor')]
+    discarded pt (extra, no es match): ['doutor']
+  id=1261
+    original pt='leste'  es='oriente, este'
+    kept pairs: [('leste', 'oriente')]
+    discarded es (extra, no pt match): ['este']
+  id=1265
+    original pt='- Sim?'  es='ah, ¿sí?'
+    kept pairs: [('- Sim?', 'ah')]
+    discarded es (extra, no pt match): ['¿sí?']
+  id=1344
+    original pt='impedimento, obstáculo, obstáculo'  es='impedimento, obstáculo'
+    kept pairs: [('impedimento', 'impedimento'), ('obstáculo', 'obstáculo')]
+    discarded pt (extra, no es match): ['obstáculo']
+  id=1401
+    original pt='vila, cidade, vilarejo'  es='pueblo, ciudad'
+    kept pairs: [('vila', 'pueblo'), ('cidade', 'ciudad')]
+    discarded pt (extra, no es match): ['vilarejo']
+  id=1552
+    original pt='enviar, mandar, enviar'  es='enviar, mandar'
+    kept pairs: [('enviar', 'enviar'), ('mandar', 'mandar')]
+    discarded pt (extra, no es match): ['enviar']
+  id=1614
+    original pt='dobrar, dobrar, dobrar'  es='doblar, torcer'
+    kept pairs: [('dobrar', 'doblar'), ('dobrar', 'torcer')]
+    discarded pt (extra, no es match): ['dobrar']
+  id=1617
+    original pt='defender, proteger, proteger'  es='defender, proteger'
+    kept pairs: [('defender', 'defender'), ('proteger', 'proteger')]
+    discarded pt (extra, no es match): ['proteger']
+  id=1623
+    original pt='enterrar, enterrar, enterrar'  es='sepultar, enterrar'
+    kept pairs: [('enterrar', 'sepultar'), ('enterrar', 'enterrar')]
+    discarded pt (extra, no es match): ['enterrar']
+  id=1631
+    original pt='plantar, semear, semear'  es='plantar, sembrar'
+    kept pairs: [('plantar', 'plantar'), ('semear', 'sembrar')]
+    discarded pt (extra, no es match): ['semear']
+  id=1643
+    original pt='apresentar, mostrar, expor'  es='presentar, mostrar'
+    kept pairs: [('apresentar', 'presentar'), ('mostrar', 'mostrar')]
+    discarded pt (extra, no es match): ['expor']
+  id=1683
+    original pt='constituir, fundar, fundar'  es='constituir, fundar'
+    kept pairs: [('constituir', 'constituir'), ('fundar', 'fundar')]
+    discarded pt (extra, no es match): ['fundar']
+  id=1717
+    original pt='chegar, chegar, vir'  es='llegar, venir'
+    kept pairs: [('chegar', 'llegar'), ('chegar', 'venir')]
+    discarded pt (extra, no es match): ['vir']
+  id=1756
+    original pt='ficar (de cabeça para baixo, sujeito inanimado)'  es='quedar (boca abajo, sujeto inanimado)'
+    kept pairs: [('ficar', 'quedar (boca abajo')]
+    discarded es (extra, no pt match): ['sujeto inanimado)']
+  id=1778
+    original pt='errar, falhar, falhar'  es='equivocarse, fallar'
+    kept pairs: [('errar', 'equivocarse'), ('falhar', 'fallar')]
+    discarded pt (extra, no es match): ['falhar']
+  id=1830
+    original pt='suspender, neutralizar, neutralizar'  es='suspender, neutralizar'
+    kept pairs: [('suspender', 'suspender'), ('neutralizar', 'neutralizar')]
+    discarded pt (extra, no es match): ['neutralizar']
+  id=1866
+    original pt='domesticar, dominar, dominar'  es='domesticar, domar'
+    kept pairs: [('domesticar', 'domesticar'), ('dominar', 'domar')]
+    discarded pt (extra, no es match): ['dominar']
+  id=1922
+    original pt='acabado, terminado, concluído'  es='acabado, terminado'
+    kept pairs: [('acabado', 'acabado'), ('terminado', 'terminado')]
+    discarded pt (extra, no es match): ['concluído']
+  id=1931
+    original pt='recuar (um passo), dar um passo para trás'  es='retroceder (un paso), dar un paso atrás'
+    kept pairs: [('recuar, dar um passo para trás', 'retroceder')]
+    discarded es (extra, no pt match): ['dar un paso atrás']
+  id=1979
+    original pt='aspiração, desejo, desejo'  es='aspiración, deseo'
+    kept pairs: [('aspiração', 'aspiración'), ('desejo', 'deseo')]
+    discarded pt (extra, no es match): ['desejo']
+  id=1985
+    original pt='jogo, esporte, esporte'  es='juego, deporte'
+    kept pairs: [('jogo', 'juego'), ('esporte', 'deporte')]
+    discarded pt (extra, no es match): ['esporte']
+  id=1990
+    original pt='brinquedo, bola, brinquedo'  es='juguete, pelota'
+    kept pairs: [('brinquedo', 'juguete'), ('bola', 'pelota')]
+    discarded pt (extra, no es match): ['brinquedo']
+  id=2006
+    original pt='hospedagem; hotel; pousada'  es='residencia; hospedaje, hostal, hotel'
+    kept pairs: [('hospedagem; hotel; pousada', 'residencia; hospedaje')]
+    discarded es (extra, no pt match): ['hostal', 'hotel']
+  id=2010
+    original pt='base, fundação, fundação'  es='base, cimiento'
+    kept pairs: [('base', 'base'), ('fundação', 'cimiento')]
+    discarded pt (extra, no es match): ['fundação']
+  id=2016
+    original pt='Cansado, esgotado.'  es='fatigoso'
+    kept pairs: [('Cansado', 'fatigoso')]
+    discarded pt (extra, no es match): ['esgotado.']
+  id=2085
+    original pt='entregue, dado, entregue'  es='entregado, dado'
+    kept pairs: [('entregue', 'entregado'), ('dado', 'dado')]
+    discarded pt (extra, no es match): ['entregue']
+  id=2087
+    original pt='armadillo, carachupa, armadilha'  es='armadillo, carachupa'
+    kept pairs: [('armadillo', 'armadillo'), ('carachupa', 'carachupa')]
+    discarded pt (extra, no es match): ['armadilha']
+  id=2094
+    original pt='agitado, agitado, agitado'  es='agitado, movido'
+    kept pairs: [('agitado', 'agitado'), ('agitado', 'movido')]
+    discarded pt (extra, no es match): ['agitado']
+  id=2106
+    original pt='pequeno, menino, menina'  es='pequeño, chico'
+    kept pairs: [('pequeno', 'pequeño'), ('menino', 'chico')]
+    discarded pt (extra, no es match): ['menina']
+  id=2121
+    original pt='estreito, estreito, estreito'  es='angosto, estrecho'
+    kept pairs: [('estreito', 'angosto'), ('estreito', 'estrecho')]
+    discarded pt (extra, no es match): ['estreito']
+  id=2260
+    original pt='O que ele diz?'  es='¿qué dice?, ¿qué tal?'
+    kept pairs: [('O que ele diz?', '¿qué dice?')]
+    discarded es (extra, no pt match): ['¿qué tal?']
+  id=2263
+    original pt='Bem, bem, bem!'  es='¡bueno!, ¡bueno pues!'
+    kept pairs: [('Bem', '¡bueno!'), ('bem', '¡bueno pues!')]
+    discarded pt (extra, no es match): ['bem!']
+  id=2279
+    original pt='baladora, honda, moto'  es='baladora, honda'
+    kept pairs: [('baladora', 'baladora'), ('honda', 'honda')]
+    discarded pt (extra, no es match): ['moto']
+  id=2280
+    original pt='monte, colina, colina'  es='cerro, colina'
+    kept pairs: [('monte', 'cerro'), ('colina', 'colina')]
+    discarded pt (extra, no es match): ['colina']
+  id=2282
+    original pt='Serra, cordilheira, cordilheira'  es='sierra, cordillera'
+    kept pairs: [('Serra', 'sierra'), ('cordilheira', 'cordillera')]
+    discarded pt (extra, no es match): ['cordilheira']
+  id=2291
+    original pt='marisco, concha, peixe'  es='marisco, concha'
+    kept pairs: [('marisco', 'marisco'), ('concha', 'concha')]
+    discarded pt (extra, no es match): ['peixe']
+  id=2351
+    original pt='Nobres e retos.'  es='digno, noble'
+    kept pairs: [('Nobres e retos.', 'digno')]
+    discarded es (extra, no pt match): ['noble']
+  id=2374
+    original pt='bonito, bonito, bonito'  es='bello, lindo'
+    kept pairs: [('bonito', 'bello'), ('bonito', 'lindo')]
+    discarded pt (extra, no es match): ['bonito']
+  id=2376
+    original pt='bom, admirável; belo; belo'  es='bueno, valioso, admirable; bello'
+    kept pairs: [('bom', 'bueno'), ('admirável; belo; belo', 'valioso')]
+    discarded es (extra, no pt match): ['admirable; bello']
+  id=2377
+    original pt='belo, belo, belo, belo, belo, belo, belo, belo, belo'  es='bellísimo, elegante, glorioso; lujoso, precioso, valioso'
+    kept pairs: [('belo', 'bellísimo'), ('belo', 'elegante'), ('belo', 'glorioso; lujoso'), ('belo', 'precioso'), ('belo', 'valioso')]
+    discarded pt (extra, no es match): ['belo', 'belo', 'belo', 'belo']
+  id=2384
+    original pt='remédio, medicina, medicamento'  es='remedio, medicina'
+    kept pairs: [('remédio', 'remedio'), ('medicina', 'medicina')]
+    discarded pt (extra, no es match): ['medicamento']
+  id=2426
+    original pt='Obrigado, obrigada, obrigado'  es='gracias, agradecimiento'
+    kept pairs: [('Obrigado', 'gracias'), ('obrigada', 'agradecimiento')]
+    discarded pt (extra, no es match): ['obrigado']
+  id=2463
+    original pt='De ambos os lados, repletos de folhas.'  es='frondoso'
+    kept pairs: [('De ambos os lados', 'frondoso')]
+    discarded pt (extra, no es match): ['repletos de folhas.']
+  id=2469
+    original pt='cauda (de pequepeque, de motor de popa)'  es='cola (de pequepeque, de motor fuera de borda)'
+    kept pairs: [('cauda (de pequepeque', 'cola')]
+    discarded pt (extra, no es match): ['de motor de popa)']
+  id=2480
+    original pt='muito, muito, bastante'  es='muchísimo, bastante'
+    kept pairs: [('muito', 'muchísimo'), ('muito', 'bastante')]
+    discarded pt (extra, no es match): ['bastante']
+  id=2510
+    original pt='junção, articulação, junção'  es='coyuntura, articulación'
+    kept pairs: [('junção', 'coyuntura'), ('articulação', 'articulación')]
+    discarded pt (extra, no es match): ['junção']
+  id=2518
+    original pt='terreno, lote, loteamento'  es='terreno, lote'
+    kept pairs: [('terreno', 'terreno'), ('lote', 'lote')]
+    discarded pt (extra, no es match): ['loteamento']
+  id=2523
+    original pt='perito, agrimensor, agrimensor'  es='perito, agrimensor'
+    kept pairs: [('perito', 'perito'), ('agrimensor', 'agrimensor')]
+    discarded pt (extra, no es match): ['agrimensor']
+  id=2527
+    original pt='agricultor; fazendeiro; lavrador'  es='agricultor, labrador; jardinero'
+    kept pairs: [('agricultor; fazendeiro; lavrador', 'agricultor')]
+    discarded es (extra, no pt match): ['labrador; jardinero']
+  id=2579
+    original pt='comida, alimento, alimento'  es='comida, alimento'
+    kept pairs: [('comida', 'comida'), ('alimento', 'alimento')]
+    discarded pt (extra, no es match): ['alimento']
+  id=2603
+    original pt='colar, gargantilha, gargantilha'  es='collar, gargantilla'
+    kept pairs: [('colar', 'collar'), ('gargantilha', 'gargantilla')]
+    discarded pt (extra, no es match): ['gargantilha']
+  id=2612
+    original pt='rosto, cara, face'  es='rostro, cara'
+    kept pairs: [('rosto', 'rostro'), ('cara', 'cara')]
+    discarded pt (extra, no es match): ['face']
+  id=2678
+    original pt='rosto, cara, face'  es='rostro, cara'
+    kept pairs: [('rosto', 'rostro'), ('cara', 'cara')]
+    discarded pt (extra, no es match): ['face']
+  id=2808
+    original pt='mãe, mãe, mãe'  es='madre, mamá'
+    kept pairs: [('mãe', 'madre'), ('mãe', 'mamá')]
+    discarded pt (extra, no es match): ['mãe']
+  id=2822
+    original pt='líder, chefe, cabeça'  es='líder, cabeza'
+    kept pairs: [('líder', 'líder'), ('chefe', 'cabeza')]
+    discarded pt (extra, no es match): ['cabeça']
+  id=2823
+    original pt='crânio, caveira, caveira'  es='cráneo, calavera'
+    kept pairs: [('crânio', 'cráneo'), ('caveira', 'calavera')]
+    discarded pt (extra, no es match): ['caveira']
+  id=2835
+    original pt='advogar, interceder, defender'  es='abogar, interceder'
+    kept pairs: [('advogar', 'abogar'), ('interceder', 'interceder')]
+    discarded pt (extra, no es match): ['defender']
+  id=2849
+    original pt='som, ruído, som'  es='sonido, ruido'
+    kept pairs: [('som', 'sonido'), ('ruído', 'ruido')]
+    discarded pt (extra, no es match): ['som']
+  id=2878
+    original pt='pensar, meditar, pensar'  es='pensar, meditar'
+    kept pairs: [('pensar', 'pensar'), ('meditar', 'meditar')]
+    discarded pt (extra, no es match): ['pensar']
+  id=2882
+    original pt='rasgar, romper, romper'  es='rasgar, romper'
+    kept pairs: [('rasgar', 'rasgar'), ('romper', 'romper')]
+    discarded pt (extra, no es match): ['romper']
+  id=2900
+    original pt='meditar, contemplar, pensar'  es='meditar, contemplar'
+    kept pairs: [('meditar', 'meditar'), ('contemplar', 'contemplar')]
+    discarded pt (extra, no es match): ['pensar']
+  id=2931
+    original pt='variado, diverso, diversificado'  es='variado, diverso'
+    kept pairs: [('variado', 'variado'), ('diverso', 'diverso')]
+    discarded pt (extra, no es match): ['diversificado']
+  id=2940
+    original pt='árvore, pau, madeira'  es='árbol, palo'
+    kept pairs: [('árvore', 'árbol'), ('pau', 'palo')]
+    discarded pt (extra, no es match): ['madeira']
+  id=3010
+    original pt='escrita, letra, letras'  es='escritura, letra'
+    kept pairs: [('escrita', 'escritura'), ('letra', 'letra')]
+    discarded pt (extra, no es match): ['letras']
+  id=3023
+    original pt='espantoso, assustador, espantoso'  es='asombroso, espantoso'
+    kept pairs: [('espantoso', 'asombroso'), ('assustador', 'espantoso')]
+    discarded pt (extra, no es match): ['espantoso']
+  id=3025
+    original pt='governar, administrar, administrar'  es='gobernar, administrar'
+    kept pairs: [('governar', 'gobernar'), ('administrar', 'administrar')]
+    discarded pt (extra, no es match): ['administrar']
+  id=3029
+    original pt='ensinar, guiar, orientar'  es='enseñar, guiar'
+    kept pairs: [('ensinar', 'enseñar'), ('guiar', 'guiar')]
+    discarded pt (extra, no es match): ['orientar']
+  id=3035
+    original pt='insultar, ultrajar, ultrajar'  es='insultar, ultrajar'
+    kept pairs: [('insultar', 'insultar'), ('ultrajar', 'ultrajar')]
+    discarded pt (extra, no es match): ['ultrajar']
+  id=3048
+    original pt='prometer, jurar, prometer'  es='prometer, jurar'
+    kept pairs: [('prometer', 'prometer'), ('jurar', 'jurar')]
+    discarded pt (extra, no es match): ['prometer']
+  id=3052
+    original pt='guardar, cuidar, cuidar'  es='guardar, cuidar'
+    kept pairs: [('guardar', 'guardar'), ('cuidar', 'cuidar')]
+    discarded pt (extra, no es match): ['cuidar']
+  id=3054
+    original pt='distribuir, espalhar, dispersar'  es='distribuir, dispersar'
+    kept pairs: [('distribuir', 'distribuir'), ('espalhar', 'dispersar')]
+    discarded pt (extra, no es match): ['dispersar']
+  id=3193
+    original pt='apoiar, apoiar, apoiar'  es='apoyar, apuntalar'
+    kept pairs: [('apoiar', 'apoyar'), ('apoiar', 'apuntalar')]
+    discarded pt (extra, no es match): ['apoiar']
+  id=3209
+    original pt='Sabões e produtos de limpeza'  es='jabonar, enjabonar'
+    kept pairs: [('Sabões e produtos de limpeza', 'jabonar')]
+    discarded es (extra, no pt match): ['enjabonar']
+  id=3242
+    original pt='insistir, exigir, exigir'  es='insistir, exigir'
+    kept pairs: [('insistir', 'insistir'), ('exigir', 'exigir')]
+    discarded pt (extra, no es match): ['exigir']
+  id=3246
+    original pt='destroçar, mutilar, mutilar'  es='destrozar, mutilar'
+    kept pairs: [('destroçar', 'destrozar'), ('mutilar', 'mutilar')]
+    discarded pt (extra, no es match): ['mutilar']
+  id=3278
+    original pt='branquear, branquear, branquear'  es='blanquear, emblanquecer'
+    kept pairs: [('branquear', 'blanquear'), ('branquear', 'emblanquecer')]
+    discarded pt (extra, no es match): ['branquear']
+  id=3309
+    original pt='recolher, juntar, juntar'  es='recoger, juntar'
+    kept pairs: [('recolher', 'recoger'), ('juntar', 'juntar')]
+    discarded pt (extra, no es match): ['juntar']
+  id=3311
+    original pt='E armazenada (na terra).'  es='recogido, juntado'
+    kept pairs: [('E armazenada.', 'recogido')]
+    discarded es (extra, no pt match): ['juntado']
+  id=3320
+    original pt='recolher, acumular, acumular'  es='recoger, acumular'
+    kept pairs: [('recolher', 'recoger'), ('acumular', 'acumular')]
+    discarded pt (extra, no es match): ['acumular']
+  id=3372
+    original pt='impedir, impedir, impedir'  es='impedir, estorbar'
+    kept pairs: [('impedir', 'impedir'), ('impedir', 'estorbar')]
+    discarded pt (extra, no es match): ['impedir']
+  id=3377
+    original pt='gastar, gastar, gastar'  es='gastar, consumir'
+    kept pairs: [('gastar', 'gastar'), ('gastar', 'consumir')]
+    discarded pt (extra, no es match): ['gastar']
+  id=3396
+    original pt='desalentar, desanimar, desencorajar'  es='desalentar, desanimar'
+    kept pairs: [('desalentar', 'desalentar'), ('desanimar', 'desanimar')]
+    discarded pt (extra, no es match): ['desencorajar']
+  id=3412
+    original pt='partir, rajar, correr'  es='partir, rajar'
+    kept pairs: [('partir', 'partir'), ('rajar', 'rajar')]
+    discarded pt (extra, no es match): ['correr']
+  id=3432
+    original pt='reparar, reparar, reparar'  es='reparar, componer'
+    kept pairs: [('reparar', 'reparar'), ('reparar', 'componer')]
+    discarded pt (extra, no es match): ['reparar']
+  id=3440
+    original pt='mandar, enviar, enviar'  es='mandar, enviar'
+    kept pairs: [('mandar', 'mandar'), ('enviar', 'enviar')]
+    discarded pt (extra, no es match): ['enviar']
+  id=3468
+    original pt='aquecer, aquecer, aquecer'  es='calentar, acalorar'
+    kept pairs: [('aquecer', 'calentar'), ('aquecer', 'acalorar')]
+    discarded pt (extra, no es match): ['aquecer']
+  id=3491
+    original pt='entristecer, entristecer-se, entristecer-se'  es='entristecer, apenar'
+    kept pairs: [('entristecer', 'entristecer'), ('entristecer-se', 'apenar')]
+    discarded pt (extra, no es match): ['entristecer-se']
+  id=3521
+    original pt='iluminar, iluminar, iluminar'  es='iluminar, alumbrar'
+    kept pairs: [('iluminar', 'iluminar'), ('iluminar', 'alumbrar')]
+    discarded pt (extra, no es match): ['iluminar']
+  id=3559
+    original pt='ensinar, educar, educar'  es='enseñar, educar'
+    kept pairs: [('ensinar', 'enseñar'), ('educar', 'educar')]
+    discarded pt (extra, no es match): ['educar']
+  id=3561
+    original pt='treinar, treinar, treinar'  es='entrenar, capacitar'
+    kept pairs: [('treinar', 'entrenar'), ('treinar', 'capacitar')]
+    discarded pt (extra, no es match): ['treinar']
+  id=3582
+    original pt='empacotar, embalar, envolver'  es='empaquetar, envolver'
+    kept pairs: [('empacotar', 'empaquetar'), ('embalar', 'envolver')]
+    discarded pt (extra, no es match): ['envolver']
+  id=3659
+    original pt='fortalecer, reforçar, reforçar'  es='fortalecer, reforzar'
+    kept pairs: [('fortalecer', 'fortalecer'), ('reforçar', 'reforzar')]
+    discarded pt (extra, no es match): ['reforçar']
+  id=3674
+    original pt='extrair, tirar, tirar'  es='extraer, sacar'
+    kept pairs: [('extrair', 'extraer'), ('tirar', 'sacar')]
+    discarded pt (extra, no es match): ['tirar']
+  id=3684
+    original pt='animar, encorajar, incentivar, incentivar, incentivar'  es='alentar, animar, consolar, contentar'
+    kept pairs: [('animar', 'alentar'), ('encorajar', 'animar'), ('incentivar', 'consolar'), ('incentivar', 'contentar')]
+    discarded pt (extra, no es match): ['incentivar']
+  id=3685
+    original pt='encantar, agradar, agradar'  es='encantar, complacer'
+    kept pairs: [('encantar', 'encantar'), ('agradar', 'complacer')]
+    discarded pt (extra, no es match): ['agradar']
+  id=3713
+    original pt='nada acontecer (a alguém, apesar de ter caído)'  es='no pasarle nada (a alguien a pesar de haberse caído)'
+    kept pairs: [('nada acontecer (a alguém', 'no pasarle nada')]
+    discarded pt (extra, no es match): ['apesar de ter caído)']
+  id=3714
+    original pt='desgastar, embotar, embotar'  es='desafilar, embotar'
+    kept pairs: [('desgastar', 'desafilar'), ('embotar', 'embotar')]
+    discarded pt (extra, no es match): ['embotar']
+  id=3725
+    original pt='alterar, mudar, modificar'  es='alterar, cambiar'
+    kept pairs: [('alterar', 'alterar'), ('mudar', 'cambiar')]
+    discarded pt (extra, no es match): ['modificar']
+  id=3740
+    original pt='Pai, Paizinho, Pai'  es='padre, papá'
+    kept pairs: [('Pai', 'padre'), ('Paizinho', 'papá')]
+    discarded pt (extra, no es match): ['Pai']
+  id=3799
+    original pt='mostrar, demonstrar, demonstrar'  es='mostrar, demostrar'
+    kept pairs: [('mostrar', 'mostrar'), ('demonstrar', 'demostrar')]
+    discarded pt (extra, no es match): ['demonstrar']
+  id=3916
+    original pt='juntar, reunir, reunir'  es='juntar, reunir'
+    kept pairs: [('juntar', 'juntar'), ('reunir', 'reunir')]
+    discarded pt (extra, no es match): ['reunir']
+  id=3949
+    original pt='construir, edificar, edificar'  es='construir, edificar'
+    kept pairs: [('construir', 'construir'), ('edificar', 'edificar')]
+    discarded pt (extra, no es match): ['edificar']
+  id=3971
+    original pt='mudar, transformar, transformar'  es='cambiar, transformar'
+    kept pairs: [('mudar', 'cambiar'), ('transformar', 'transformar')]
+    discarded pt (extra, no es match): ['transformar']
+  id=3973
+    original pt='celebrar, festejar, festejar'  es='celebrar, festejar'
+    kept pairs: [('celebrar', 'celebrar'), ('festejar', 'festejar')]
+    discarded pt (extra, no es match): ['festejar']
+  id=3981
+    original pt='marcar, assinalar, assinalar'  es='marcar, señalar'
+    kept pairs: [('marcar', 'marcar'), ('assinalar', 'señalar')]
+    discarded pt (extra, no es match): ['assinalar']
+  id=4066
+    original pt='concordar, aprovar, aprovar'  es='asentir, aprobar'
+    kept pairs: [('concordar', 'asentir'), ('aprovar', 'aprobar')]
+    discarded pt (extra, no es match): ['aprovar']
+  id=4077
+    original pt='derrubar, derrubar, derrubar'  es='derribar, hacer caer'
+    kept pairs: [('derrubar', 'derribar'), ('derrubar', 'hacer caer')]
+    discarded pt (extra, no es match): ['derrubar']
+  id=4094
+    original pt='tronco, tronco, tronco'  es='tallo, tronco'
+    kept pairs: [('tronco', 'tallo'), ('tronco', 'tronco')]
+    discarded pt (extra, no es match): ['tronco']
+  id=4098
+    original pt='abdômen, barriga, barriga'  es='abdomen, barriga'
+    kept pairs: [('abdômen', 'abdomen'), ('barriga', 'barriga')]
+    discarded pt (extra, no es match): ['barriga']
+  id=4170
+    original pt='haver, existir, existir'  es='haber, existir'
+    kept pairs: [('haver', 'haber'), ('existir', 'existir')]
+    discarded pt (extra, no es match): ['existir']
+  id=4184
+    original pt='haver, estar, estar'  es='haber, estar'
+    kept pairs: [('haver', 'haber'), ('estar', 'estar')]
+    discarded pt (extra, no es match): ['estar']
+  id=4232
+    original pt='reunir, juntar, juntar-se'  es='reunirse, juntarse'
+    kept pairs: [('reunir', 'reunirse'), ('juntar', 'juntarse')]
+    discarded pt (extra, no es match): ['juntar-se']
+  id=4327
+    original pt='chapéu, boné, gorro'  es='sombrero, gorra'
+    kept pairs: [('chapéu', 'sombrero'), ('boné', 'gorra')]
+    discarded pt (extra, no es match): ['gorro']
+  id=4401
+    original pt='Toranjas'  es='toronja, toronjo'
+    kept pairs: [('Toranjas', 'toronja')]
+    discarded es (extra, no pt match): ['toronjo']
+  id=4407
+    original pt='mergulhar, mergulhar, mergulhar'  es='bucear, zambullirse'
+    kept pairs: [('mergulhar', 'bucear'), ('mergulhar', 'zambullirse')]
+    discarded pt (extra, no es match): ['mergulhar']
+  id=4446
+    original pt='chorar, lamentar, gemir'  es='llorar, gemir'
+    kept pairs: [('chorar', 'llorar'), ('lamentar', 'gemir')]
+    discarded pt (extra, no es match): ['gemir']
+  id=4533
+    original pt='brincar, saltar, brincar'  es='brincar, saltar'
+    kept pairs: [('brincar', 'brincar'), ('saltar', 'saltar')]
+    discarded pt (extra, no es match): ['brincar']
+  id=4566
+    original pt='durar, permanecer, permanecer'  es='durar, permanecer'
+    kept pairs: [('durar', 'durar'), ('permanecer', 'permanecer')]
+    discarded pt (extra, no es match): ['permanecer']
+  id=4623
+    original pt='negociar, negociar, negociar'  es='negociar, comerciar'
+    kept pairs: [('negociar', 'negociar'), ('negociar', 'comerciar')]
+    discarded pt (extra, no es match): ['negociar']
+  id=4634
+    original pt='marido, marido, marido'  es='esposo, marido'
+    kept pairs: [('marido', 'esposo'), ('marido', 'marido')]
+    discarded pt (extra, no es match): ['marido']
+  id=4721
+    original pt='examinar, examinar, estudar'  es='escudriñar, estudiar'
+    kept pairs: [('examinar', 'escudriñar'), ('examinar', 'estudiar')]
+    discarded pt (extra, no es match): ['estudar']
+  id=4880
+    original pt='ter, possuir, possuir'  es='tener, poseer'
+    kept pairs: [('ter', 'tener'), ('possuir', 'poseer')]
+    discarded pt (extra, no es match): ['possuir']
+  id=4956
+    original pt='buscar, procurar, procurar'  es='buscar, procurar'
+    kept pairs: [('buscar', 'buscar'), ('procurar', 'procurar')]
+    discarded pt (extra, no es match): ['procurar']
+  id=4972
+    original pt='estudar, aprender, aprender'  es='estudiar, aprender'
+    kept pairs: [('estudar', 'estudiar'), ('aprender', 'aprender')]
+    discarded pt (extra, no es match): ['aprender']
+  id=5030
+    original pt='retrato, fotografia, paisagem'  es='retrato, fotografía'
+    kept pairs: [('retrato', 'retrato'), ('fotografia', 'fotografía')]
+    discarded pt (extra, no es match): ['paisagem']
+  id=5120
+    original pt='juntar, reunir, reunir-se'  es='juntarse, reunirse'
+    kept pairs: [('juntar', 'juntarse'), ('reunir', 'reunirse')]
+    discarded pt (extra, no es match): ['reunir-se']
+  id=5126
+    original pt='abertura, espaço, espaço'  es='abertura, espacio'
+    kept pairs: [('abertura', 'abertura'), ('espaço', 'espacio')]
+    discarded pt (extra, no es match): ['espaço']
+  id=5147
+    original pt='túmulo, sepulcro, sepultura'  es='tumba, sepulcro'
+    kept pairs: [('túmulo', 'tumba'), ('sepulcro', 'sepulcro')]
+    discarded pt (extra, no es match): ['sepultura']
+  id=5207
+    original pt='parede, parede, parede'  es='pared, muro'
+    kept pairs: [('parede', 'pared'), ('parede', 'muro')]
+    discarded pt (extra, no es match): ['parede']
+  id=5259
+    original pt='escravo, servo, escrava'  es='criado, siervo'
+    kept pairs: [('escravo', 'criado'), ('servo', 'siervo')]
+    discarded pt (extra, no es match): ['escrava']
+  id=5287
+    original pt='quebrar, romper, quebrar'  es='quebrar, romper'
+    kept pairs: [('quebrar', 'quebrar'), ('romper', 'romper')]
+    discarded pt (extra, no es match): ['quebrar']
+  id=5338
+    original pt='continuar, prolongar, prolongar'  es='continuar, prolongar'
+    kept pairs: [('continuar', 'continuar'), ('prolongar', 'prolongar')]
+    discarded pt (extra, no es match): ['prolongar']
+  id=5352
+    original pt='aplastar, esmagar, esmagar'  es='aplastar, apachurrar'
+    kept pairs: [('aplastar', 'aplastar'), ('esmagar', 'apachurrar')]
+    discarded pt (extra, no es match): ['esmagar']
+  id=5362
+    original pt='cabelo, cabelo, cabelo'  es='cabello, pelo'
+    kept pairs: [('cabelo', 'cabello'), ('cabelo', 'pelo')]
+    discarded pt (extra, no es match): ['cabelo']
+  id=5376
+    original pt='acabar, terminar, terminar'  es='acabar, terminar'
+    kept pairs: [('acabar', 'acabar'), ('terminar', 'terminar')]
+    discarded pt (extra, no es match): ['terminar']
+  id=5387
+    original pt='enviar, mandar, enviar'  es='enviar, mandar'
+    kept pairs: [('enviar', 'enviar'), ('mandar', 'mandar')]
+    discarded pt (extra, no es match): ['enviar']
+  id=5415
+    original pt='cancelar, anular, cancelar, apagar'  es='anular, cancelar, borrar'
+    kept pairs: [('cancelar', 'anular'), ('anular', 'cancelar'), ('cancelar', 'borrar')]
+    discarded pt (extra, no es match): ['apagar']
+  id=5444
+    original pt='ligar, ligar, conectar'  es='enchufar, conectar'
+    kept pairs: [('ligar', 'enchufar'), ('ligar', 'conectar')]
+    discarded pt (extra, no es match): ['conectar']
+  id=5447
+    original pt='inspecionar, examinar, rever'  es='inspeccionar, revisar'
+    kept pairs: [('inspecionar', 'inspeccionar'), ('examinar', 'revisar')]
+    discarded pt (extra, no es match): ['rever']
+  id=5451
+    original pt='executar, executar, executar'  es='desempeñar, ejecutar'
+    kept pairs: [('executar', 'desempeñar'), ('executar', 'ejecutar')]
+    discarded pt (extra, no es match): ['executar']
+  id=5453
+    original pt='terminar, terminar, terminar'  es='terminar, acabar'
+    kept pairs: [('terminar', 'terminar'), ('terminar', 'acabar')]
+    discarded pt (extra, no es match): ['terminar']
+  id=5470
+    original pt='aplastar, esmagar, esmagar'  es='aplastar, apachurrar'
+    kept pairs: [('aplastar', 'aplastar'), ('esmagar', 'apachurrar')]
+    discarded pt (extra, no es match): ['esmagar']
+  id=5499
+    original pt='machucar, martillar, golpear'  es='machucar, martillar'
+    kept pairs: [('machucar', 'machucar'), ('martillar', 'martillar')]
+    discarded pt (extra, no es match): ['golpear']
+  id=5513
+    original pt='romper, quebrar, quebrar'  es='romper, quebrar'
+    kept pairs: [('romper', 'romper'), ('quebrar', 'quebrar')]
+    discarded pt (extra, no es match): ['quebrar']
+  id=5531
+    original pt='brotar, germinar, brotar'  es='retoñar, germinar'
+    kept pairs: [('brotar', 'retoñar'), ('germinar', 'germinar')]
+    discarded pt (extra, no es match): ['brotar']
+  id=5546
+    original pt='dividir, partir, separar'  es='dividir, partir'
+    kept pairs: [('dividir', 'dividir'), ('partir', 'partir')]
+    discarded pt (extra, no es match): ['separar']
+  id=5566
+    original pt='irrigar, regar, regar'  es='irrigar, regar'
+    kept pairs: [('irrigar', 'irrigar'), ('regar', 'regar')]
+    discarded pt (extra, no es match): ['regar']
+  id=5588
+    original pt='matricular, registrar, registrar'  es='matricular, registrar'
+    kept pairs: [('matricular', 'matricular'), ('registrar', 'registrar')]
+    discarded pt (extra, no es match): ['registrar']
+  id=5604
+    original pt='frustrar, contrariar, contrariar'  es='frustrar, contrariar'
+    kept pairs: [('frustrar', 'frustrar'), ('contrariar', 'contrariar')]
+    discarded pt (extra, no es match): ['contrariar']
+  id=5692
+    original pt='estar, ter, estar'  es='estar, haber'
+    kept pairs: [('estar', 'estar'), ('ter', 'haber')]
+    discarded pt (extra, no es match): ['estar']
+  id=5714
+    original pt='orar, rezar, rezar'  es='orar, rezar'
+    kept pairs: [('orar', 'orar'), ('rezar', 'rezar')]
+    discarded pt (extra, no es match): ['rezar']
+  id=5831
+    original pt='meta, objetivo, objetivo'  es='meta, objetivo'
+    kept pairs: [('meta', 'meta'), ('objetivo', 'objetivo')]
+    discarded pt (extra, no es match): ['objetivo']
+  id=5834
+    original pt='desejo, hobby, gosto'  es='deseo, afición'
+    kept pairs: [('desejo', 'deseo'), ('hobby', 'afición')]
+    discarded pt (extra, no es match): ['gosto']
+  id=5870
+    original pt='aquele, aquela, aquele, aquela, aquele, aquela'  es='ése, ésa, eso, aquél, aquélla'
+    kept pairs: [('aquele', 'ése'), ('aquela', 'ésa'), ('aquele', 'eso'), ('aquela', 'aquél'), ('aquele', 'aquélla')]
+    discarded pt (extra, no es match): ['aquela']
+  id=5875
+    original pt='coisa, objeto, coisa'  es='cosa, objeto'
+    kept pairs: [('coisa', 'cosa'), ('objeto', 'objeto')]
+    discarded pt (extra, no es match): ['coisa']
+  id=5878
+    original pt='armazém, armazém, armazém'  es='depósito, almacén'
+    kept pairs: [('armazém', 'depósito'), ('armazém', 'almacén')]
+    discarded pt (extra, no es match): ['armazém']
+  id=5953
+    original pt='mercado, feira, feiras'  es='mercado, feria'
+    kept pairs: [('mercado', 'mercado'), ('feira', 'feria')]
+    discarded pt (extra, no es match): ['feiras']
+  id=5971
+    original pt='estragar, danificar, estragar'  es='malograr, dañar'
+    kept pairs: [('estragar', 'malograr'), ('danificar', 'dañar')]
+    discarded pt (extra, no es match): ['estragar']
+  id=5976
+    original pt='recentemente, recentemente, recentemente'  es='recién, recientemente'
+    kept pairs: [('recentemente', 'recién'), ('recentemente', 'recientemente')]
+    discarded pt (extra, no es match): ['recentemente']
+  id=5978
+    original pt='principiante, novato, principiante'  es='principiante, novicio'
+    kept pairs: [('principiante', 'principiante'), ('novato', 'novicio')]
+    discarded pt (extra, no es match): ['principiante']
+  id=5982
+    original pt='novo, fresco, novo'  es='nuevo, fresco'
+    kept pairs: [('novo', 'nuevo'), ('fresco', 'fresco')]
+    discarded pt (extra, no es match): ['novo']
+  id=5989
+    original pt='casamento, casamento, casamento'  es='casamiento, matrimonio'
+    kept pairs: [('casamento', 'casamiento'), ('casamento', 'matrimonio')]
+    discarded pt (extra, no es match): ['casamento']
+  id=6005
+    original pt='marido, marido, marido'  es='marido, esposo'
+    kept pairs: [('marido', 'marido'), ('marido', 'esposo')]
+    discarded pt (extra, no es match): ['marido']
+  id=6033
+    original pt='aparência, visão, aparência'  es='aparición, visión'
+    kept pairs: [('aparência', 'aparición'), ('visão', 'visión')]
+    discarded pt (extra, no es match): ['aparência']
+  id=6065
+    original pt='atração, entretenimento, diversão'  es='atracción, entretenimiento'
+    kept pairs: [('atração', 'atracción'), ('entretenimento', 'entretenimiento')]
+    discarded pt (extra, no es match): ['diversão']
+  id=6116
+    original pt='ensino, doutrina, ensinamento'  es='enseñanza, doctrina'
+    kept pairs: [('ensino', 'enseñanza'), ('doutrina', 'doctrina')]
+    discarded pt (extra, no es match): ['ensinamento']
+  id=6135
+    original pt='libertador, advogado, advogado'  es='libertador, abogado'
+    kept pairs: [('libertador', 'libertador'), ('advogado', 'abogado')]
+    discarded pt (extra, no es match): ['advogado']
+  id=6150
+    original pt='respiração, respiração, respiração'  es='respiración, aliento'
+    kept pairs: [('respiração', 'respiración'), ('respiração', 'aliento')]
+    discarded pt (extra, no es match): ['respiração']
+  id=6154
+    original pt='invertido, virado de cabeça para baixo'  es='invertido, volteado'
+    kept pairs: [('invertido, virado de cabeça para baixo', 'invertido')]
+    discarded es (extra, no pt match): ['volteado']
+  id=6245
+    original pt='sonar, chirriar, chirrir'  es='sonar, chirriar'
+    kept pairs: [('sonar', 'sonar'), ('chirriar', 'chirriar')]
+    discarded pt (extra, no es match): ['chirrir']
+  id=6272
+    original pt='conversar, conversar, conversar'  es='conversar, charlar'
+    kept pairs: [('conversar', 'conversar'), ('conversar', 'charlar')]
+    discarded pt (extra, no es match): ['conversar']
+  id=6349
+    original pt='terminado, acabado, acabado'  es='terminado, acabado'
+    kept pairs: [('terminado', 'terminado'), ('acabado', 'acabado')]
+    discarded pt (extra, no es match): ['acabado']
+  id=6414
+    original pt='obstruir, impedir, impedir'  es='obstaculizar, impedir'
+    kept pairs: [('obstruir', 'obstaculizar'), ('impedir', 'impedir')]
+    discarded pt (extra, no es match): ['impedir']
+  id=6425
+    original pt='explodir, explodir, explosão'  es='estallar, explosionar'
+    kept pairs: [('explodir', 'estallar'), ('explodir', 'explosionar')]
+    discarded pt (extra, no es match): ['explosão']
+  id=6443
+    original pt='deslizar, deslizar, patinar'  es='resbalarse, patinar'
+    kept pairs: [('deslizar', 'resbalarse'), ('deslizar', 'patinar')]
+    discarded pt (extra, no es match): ['patinar']
+  id=6500
+    original pt='fugir, escapar, fugir'  es='huir, fugarse'
+    kept pairs: [('fugir', 'huir'), ('escapar', 'fugarse')]
+    discarded pt (extra, no es match): ['fugir']
+  id=6504
+    original pt='evoluir, progredir, progredir'  es='evolucionar, progresar'
+    kept pairs: [('evoluir', 'evolucionar'), ('progredir', 'progresar')]
+    discarded pt (extra, no es match): ['progredir']
+  id=6532
+    original pt='pegar, apanhar, apanhar'  es='coger, atrapar'
+    kept pairs: [('pegar', 'coger'), ('apanhar', 'atrapar')]
+    discarded pt (extra, no es match): ['apanhar']
+  id=6554
+    original pt='brincar, saltar, brincar'  es='brincar, saltar'
+    kept pairs: [('brincar', 'brincar'), ('saltar', 'saltar')]
+    discarded pt (extra, no es match): ['brincar']
+  id=6590
+    original pt='fabricação, fabricação, fabricação'  es='fabricación, hechura'
+    kept pairs: [('fabricação', 'fabricación'), ('fabricação', 'hechura')]
+    discarded pt (extra, no es match): ['fabricação']
+  id=6616
+    original pt='em dinheiro'  es='al contado, en efectivo'
+    kept pairs: [('em dinheiro', 'al contado')]
+    discarded es (extra, no pt match): ['en efectivo']
+  id=6617
+    original pt='morcego, vampiro, vampiro'  es='murciélago, vampiro'
+    kept pairs: [('morcego', 'murciélago'), ('vampiro', 'vampiro')]
+    discarded pt (extra, no es match): ['vampiro']
+  id=6622
+    original pt='à força, pela força; com raiva'  es='a la fuerza, por la fuerza; con cólera'
+    kept pairs: [('à força', 'a la fuerza, por la fuerza; con cólera')]
+    discarded pt (extra, no es match): ['pela força; com raiva']
+  id=6645
+    original pt='rocha, rocha, rocha'  es='roca, peña'
+    kept pairs: [('rocha', 'roca'), ('rocha', 'peña')]
+    discarded pt (extra, no es match): ['rocha']
+  id=6689
+    original pt='Glorificado e jactancioso,'  es='orgulloso, jactancioso'
+    kept pairs: [('Glorificado e jactancioso', 'orgulloso')]
+    discarded es (extra, no pt match): ['jactancioso']
+  id=6797
+    original pt='esfriar, esfriar, esfriar'  es='enfriarse, refrescarse'
+    kept pairs: [('esfriar', 'enfriarse'), ('esfriar', 'refrescarse')]
+    discarded pt (extra, no es match): ['esfriar']
+  id=6866
+    original pt='esconder, esconder-se, esconder-se'  es='esconderse, agazaparse'
+    kept pairs: [('esconder', 'esconderse'), ('esconder-se', 'agazaparse')]
+    discarded pt (extra, no es match): ['esconder-se']
+  id=6870
+    original pt='enrolar, enrolar-se, envolver-se'  es='enrollarse, envolverse'
+    kept pairs: [('enrolar', 'enrollarse'), ('enrolar-se', 'envolverse')]
+    discarded pt (extra, no es match): ['envolver-se']
+  id=6964
+    original pt='unir, juntar, juntar'  es='unir, juntar'
+    kept pairs: [('unir', 'unir'), ('juntar', 'juntar')]
+    discarded pt (extra, no es match): ['juntar']
+  id=6981
+    original pt='parente, parentesco, parentesco'  es='pariente, parienta'
+    kept pairs: [('parente', 'pariente'), ('parentesco', 'parienta')]
+    discarded pt (extra, no es match): ['parentesco']
+  id=7058
+    original pt='remover, tirar, tirar'  es='quitar, despojar'
+    kept pairs: [('remover', 'quitar'), ('tirar', 'despojar')]
+    discarded pt (extra, no es match): ['tirar']
+  id=7071
+    original pt='remover, tirar, tirar'  es='quitar, despojar'
+    kept pairs: [('remover', 'quitar'), ('tirar', 'despojar')]
+    discarded pt (extra, no es match): ['tirar']
+  id=7095
+    original pt='contaminar, contagiar, contagiar'  es='contaminar, contagiar'
+    kept pairs: [('contaminar', 'contaminar'), ('contagiar', 'contagiar')]
+    discarded pt (extra, no es match): ['contagiar']
+  id=7172
+    original pt='irritar, incomodar, incomodar'  es='fastidiar, molestar'
+    kept pairs: [('irritar', 'fastidiar'), ('incomodar', 'molestar')]
+    discarded pt (extra, no es match): ['incomodar']
+  id=7218
+    original pt='alargar, prolongar, alongar'  es='alargar, prolongar'
+    kept pairs: [('alargar', 'alargar'), ('prolongar', 'prolongar')]
+    discarded pt (extra, no es match): ['alongar']
+  id=7245
+    original pt='animar, motivar, motivar'  es='animar, motivar'
+    kept pairs: [('animar', 'animar'), ('motivar', 'motivar')]
+    discarded pt (extra, no es match): ['motivar']
+  id=7247
+    original pt='atrair, tentar, tentar'  es='atraer, tentar'
+    kept pairs: [('atrair', 'atraer'), ('tentar', 'tentar')]
+    discarded pt (extra, no es match): ['tentar']
+  id=7266
+    original pt='pagar, pagar, pagar'  es='pagar, abonar'
+    kept pairs: [('pagar', 'pagar'), ('pagar', 'abonar')]
+    discarded pt (extra, no es match): ['pagar']
+  id=7277
+    original pt='amar, querer, amar'  es='amar, querer'
+    kept pairs: [('amar', 'amar'), ('querer', 'querer')]
+    discarded pt (extra, no es match): ['amar']
+  id=7288
+    original pt='ter, possuir, possuir'  es='tener, poseer'
+    kept pairs: [('ter', 'tener'), ('possuir', 'poseer')]
+    discarded pt (extra, no es match): ['possuir']
+  id=7291
+    original pt='enfeitiçar, encantar, encantar'  es='embrujar, hechizar'
+    kept pairs: [('enfeitiçar', 'embrujar'), ('encantar', 'hechizar')]
+    discarded pt (extra, no es match): ['encantar']
+  id=7337
+    original pt='auxiliar, socorrer, socorrer'  es='auxiliar, socorrer'
+    kept pairs: [('auxiliar', 'auxiliar'), ('socorrer', 'socorrer')]
+    discarded pt (extra, no es match): ['socorrer']
+  id=7348
+    original pt='ultrapassar, ultrapassar (em força física)'  es='aventajar, sobrepasar, superar (en fuerza física)'
+    kept pairs: [('ultrapassar', 'aventajar'), ('ultrapassar', 'sobrepasar')]
+    discarded es (extra, no pt match): ['superar']
+  id=7355
+    original pt='estender, estender, estender'  es='extender, añadir'
+    kept pairs: [('estender', 'extender'), ('estender', 'añadir')]
+    discarded pt (extra, no es match): ['estender']
+  id=7365
+    original pt='chupar, succionar, chupar'  es='chupar, succionar'
+    kept pairs: [('chupar', 'chupar'), ('succionar', 'succionar')]
+    discarded pt (extra, no es match): ['chupar']
+  id=7371
+    original pt='irritar, aborrecer, aborrecer'  es='fastidiar, aburrir'
+    kept pairs: [('irritar', 'fastidiar'), ('aborrecer', 'aburrir')]
+    discarded pt (extra, no es match): ['aborrecer']
+  id=7403
+    original pt='encontrar, encontrar, encontrar'  es='encontrar, hallar'
+    kept pairs: [('encontrar', 'encontrar'), ('encontrar', 'hallar')]
+    discarded pt (extra, no es match): ['encontrar']
+  id=7405
+    original pt='repartir, distribuir, distribuir'  es='repartir, distribuir'
+    kept pairs: [('repartir', 'repartir'), ('distribuir', 'distribuir')]
+    discarded pt (extra, no es match): ['distribuir']
+  id=7411
+    original pt='amado, querido, querido'  es='amado, querido'
+    kept pairs: [('amado', 'amado'), ('querido', 'querido')]
+    discarded pt (extra, no es match): ['querido']
+  id=7418
+    original pt='admirar, honrar, honrar'  es='admirar, honrar'
+    kept pairs: [('admirar', 'admirar'), ('honrar', 'honrar')]
+    discarded pt (extra, no es match): ['honrar']
+  id=7432
+    original pt='tocar, palpar, sentir'  es='tocar, palpar'
+    kept pairs: [('tocar', 'tocar'), ('palpar', 'palpar')]
+    discarded pt (extra, no es match): ['sentir']
+  id=7458
+    original pt='fazer saber, fazer compreender'  es='enterar, hacer saber, hacer entender'
+    kept pairs: [('fazer saber', 'enterar'), ('fazer compreender', 'hacer saber')]
+    discarded es (extra, no pt match): ['hacer entender']
+  id=7476
+    original pt='dança, dança, dança'  es='danza, baile'
+    kept pairs: [('dança', 'danza'), ('dança', 'baile')]
+    discarded pt (extra, no es match): ['dança']
+  id=7500
+    original pt='mundo, terra, terra'  es='mundo, tierra'
+    kept pairs: [('mundo', 'mundo'), ('terra', 'tierra')]
+    discarded pt (extra, no es match): ['terra']
+  id=7559
+    original pt='Quanto custa?'  es='¿cuánto vale?, ¿cuánto cuesta?'
+    kept pairs: [('Quanto custa?', '¿cuánto vale?')]
+    discarded es (extra, no pt match): ['¿cuánto cuesta?']
+  id=7617
+    original pt='palavra, mensagem, palavra'  es='palabra, mensaje'
+    kept pairs: [('palavra', 'palabra'), ('mensagem', 'mensaje')]
+    discarded pt (extra, no es match): ['palavra']
+  id=7626
+    original pt='conselho, provérbio, conselho'  es='consejo, proverbio'
+    kept pairs: [('conselho', 'consejo'), ('provérbio', 'proverbio')]
+    discarded pt (extra, no es match): ['conselho']
+  id=7634
+    original pt='rumores, fofocas, fofocas'  es='rumores, chismes'
+    kept pairs: [('rumores', 'rumores'), ('fofocas', 'chismes')]
+    discarded pt (extra, no es match): ['fofocas']
+  id=7644
+    original pt='galinha, galo, galinha'  es='gallina, gallo'
+    kept pairs: [('galinha', 'gallina'), ('galo', 'gallo')]
+    discarded pt (extra, no es match): ['galinha']
+  id=7662
+    original pt='bebê, criança, criança'  es='bebé, infante'
+    kept pairs: [('bebê', 'bebé'), ('criança', 'infante')]
+    discarded pt (extra, no es match): ['criança']
+  id=7671
+    original pt='verme, micróbio, verme'  es='gusanito, microbio'
+    kept pairs: [('verme', 'gusanito'), ('micróbio', 'microbio')]
+    discarded pt (extra, no es match): ['verme']
+  id=7698
+    original pt='irmão, irmã, irmão'  es='hermano, hermana'
+    kept pairs: [('irmão', 'hermano'), ('irmã', 'hermana')]
+    discarded pt (extra, no es match): ['irmão']
+  id=7725
+    original pt='Pai, Paizinho, Pai'  es='papá, padre'
+    kept pairs: [('Pai', 'papá'), ('Paizinho', 'padre')]
+    discarded pt (extra, no es match): ['Pai']
+  id=7763
+    original pt='músico, instrumentista, cantor'  es='músico, instrumentista'
+    kept pairs: [('músico', 'músico'), ('instrumentista', 'instrumentista')]
+    discarded pt (extra, no es match): ['cantor']
+  id=7775
+    original pt='instrumentista, músico, cantor'  es='instrumentista, músico'
+    kept pairs: [('instrumentista', 'instrumentista'), ('músico', 'músico')]
+    discarded pt (extra, no es match): ['cantor']
+  id=7795
+    original pt='hotel, pousada, hospedaria'  es='hotel, hostal'
+    kept pairs: [('hotel', 'hotel'), ('pousada', 'hostal')]
+    discarded pt (extra, no es match): ['hospedaria']
+  id=7805
+    original pt='serviço, favor, favor'  es='servicio, favor'
+    kept pairs: [('serviço', 'servicio'), ('favor', 'favor')]
+    discarded pt (extra, no es match): ['favor']
+  id=7824
+    original pt='até logo! (para mais de uma pessoa)'  es='¡adiós!, ¡hasta luego! (a más de una persona)'
+    kept pairs: [('até logo!', '¡adiós!')]
+    discarded es (extra, no pt match): ['¡hasta luego!']
+  id=7832
+    original pt='piano, teclado, guitarra'  es='piano, teclado'
+    kept pairs: [('piano', 'piano'), ('teclado', 'teclado')]
+    discarded pt (extra, no es match): ['guitarra']
+  id=7874
+    original pt='documento, escritório, escritório'  es='documento, oficio'
+    kept pairs: [('documento', 'documento'), ('escritório', 'oficio')]
+    discarded pt (extra, no es match): ['escritório']
+  id=7878
+    original pt='licença, autorização, permissão'  es='licencia, permiso'
+    kept pairs: [('licença', 'licencia'), ('autorização', 'permiso')]
+    discarded pt (extra, no es match): ['permissão']
+  id=7902
+    original pt='força, energia, poder'  es='fuerza, energía'
+    kept pairs: [('força', 'fuerza'), ('energia', 'energía')]
+    discarded pt (extra, no es match): ['poder']
+  id=7922
+    original pt='com a voz alta,'  es='acaloradamente, con voz fuerte'
+    kept pairs: [('com a voz alta', 'acaloradamente')]
+    discarded es (extra, no pt match): ['con voz fuerte']
+  id=7934
+    original pt='resistente, tenaz, tenaz'  es='resistente, tenaz'
+    kept pairs: [('resistente', 'resistente'), ('tenaz', 'tenaz')]
+    discarded pt (extra, no es match): ['tenaz']
+  id=7968
+    original pt='impedimento, obstáculo, obstáculo'  es='impedimento, obstáculo'
+    kept pairs: [('impedimento', 'impedimento'), ('obstáculo', 'obstáculo')]
+    discarded pt (extra, no es match): ['obstáculo']
+  id=7984
+    original pt='sacamuelas, dentista, dentista'  es='sacamuelas, dentista'
+    kept pairs: [('sacamuelas', 'sacamuelas'), ('dentista', 'dentista')]
+    discarded pt (extra, no es match): ['dentista']
+  id=8066
+    original pt='quebrado, rasgado, rasgado'  es='roto, rasgado'
+    kept pairs: [('quebrado', 'roto'), ('rasgado', 'rasgado')]
+    discarded pt (extra, no es match): ['rasgado']
+  id=8074
+    original pt='vencedor, victorioso, vitorioso'  es='vencedor, victorioso'
+    kept pairs: [('vencedor', 'vencedor'), ('victorioso', 'victorioso')]
+    discarded pt (extra, no es match): ['vitorioso']
+  id=8107
+    original pt='prazer, diversão, diversão'  es='placer, diversión'
+    kept pairs: [('prazer', 'placer'), ('diversão', 'diversión')]
+    discarded pt (extra, no es match): ['diversão']
+  id=8110
+    original pt='contente, alegre, feliz'  es='contento, alegre'
+    kept pairs: [('contente', 'contento'), ('alegre', 'alegre')]
+    discarded pt (extra, no es match): ['feliz']
+  id=8111
+    original pt='surpresa, alegria, felicidade'  es='sorpresa, alegría'
+    kept pairs: [('surpresa', 'sorpresa'), ('alegria', 'alegría')]
+    discarded pt (extra, no es match): ['felicidade']
+  id=8112
+    original pt='diversão, diversão, distração'  es='diversión, distracción'
+    kept pairs: [('diversão', 'diversión'), ('diversão', 'distracción')]
+    discarded pt (extra, no es match): ['distração']
+  id=8134
+    original pt='Brasileiro, Brasileira, Brasileira'  es='brasileño, brasileña'
+    kept pairs: [('Brasileiro', 'brasileño'), ('Brasileira', 'brasileña')]
+    discarded pt (extra, no es match): ['Brasileira']
+  id=8137
+    original pt='nunca, nunca, nunca'  es='nunca, jamás'
+    kept pairs: [('nunca', 'nunca'), ('nunca', 'jamás')]
+    discarded pt (extra, no es match): ['nunca']
+  id=8147
+    original pt='nunca, nunca, nunca'  es='jamás, nunca'
+    kept pairs: [('nunca', 'jamás'), ('nunca', 'nunca')]
+    discarded pt (extra, no es match): ['nunca']
+  id=8162
+    original pt='engano, fraude, fraude, engano'  es='falso, ilegítimo; estafa, engaño'
+    kept pairs: [('engano', 'falso'), ('fraude', 'ilegítimo; estafa'), ('fraude', 'engaño')]
+    discarded pt (extra, no es match): ['engano']
+  id=8223
+    original pt='permitir, consentir, consentir'  es='permitir, consentir'
+    kept pairs: [('permitir', 'permitir'), ('consentir', 'consentir')]
+    discarded pt (extra, no es match): ['consentir']
+  id=8242
+    original pt='difícil, complicado, complicado'  es='difícil, complicado'
+    kept pairs: [('difícil', 'difícil'), ('complicado', 'complicado')]
+    discarded pt (extra, no es match): ['complicado']
+  id=8285
+    original pt='cemitério, cemitério, cemitério'  es='cementerio, camposanto'
+    kept pairs: [('cemitério', 'cementerio'), ('cemitério', 'camposanto')]
+    discarded pt (extra, no es match): ['cemitério']
+  id=8292
+    original pt='permitir, facilitar, facilitar'  es='permitir, facilitar'
+    kept pairs: [('permitir', 'permitir'), ('facilitar', 'facilitar')]
+    discarded pt (extra, no es match): ['facilitar']
+  id=8309
+    original pt='chocar, atropelar, esmagar'  es='chocar, atropellar'
+    kept pairs: [('chocar', 'chocar'), ('atropelar', 'atropellar')]
+    discarded pt (extra, no es match): ['esmagar']
+  id=8334
+    original pt='loja, mercado, bazar'  es='tienda, bazar'
+    kept pairs: [('loja', 'tienda'), ('mercado', 'bazar')]
+    discarded pt (extra, no es match): ['bazar']
+  id=8367
+    original pt='indelével, indestrutível, indestrutível'  es='imborrable, indestructible'
+    kept pairs: [('indelével', 'imborrable'), ('indestrutível', 'indestructible')]
+    discarded pt (extra, no es match): ['indestrutível']
+  id=8402
+    original pt='costa, praia, mar'  es='costa, playa'
+    kept pairs: [('costa', 'costa'), ('praia', 'playa')]
+    discarded pt (extra, no es match): ['mar']
+  id=8506
+    original pt='impedimento, obstáculo, obstáculo'  es='impedimento, obstáculo'
+    kept pairs: [('impedimento', 'impedimento'), ('obstáculo', 'obstáculo')]
+    discarded pt (extra, no es match): ['obstáculo']
+  id=8549
+    original pt='templo, catedral, igreja'  es='templo, catedral'
+    kept pairs: [('templo', 'templo'), ('catedral', 'catedral')]
+    discarded pt (extra, no es match): ['igreja']
+  id=8556
+    original pt='fraco, frágil, frágil'  es='débil, frágil'
+    kept pairs: [('fraco', 'débil'), ('frágil', 'frágil')]
+    discarded pt (extra, no es match): ['frágil']
+  id=8595
+    original pt='porto, cais, cais'  es='puerto, embarcadero'
+    kept pairs: [('porto', 'puerto'), ('cais', 'embarcadero')]
+    discarded pt (extra, no es match): ['cais']
+  id=8608
+    original pt='mandioca branca (comida cozida, frita ou em farinha)'  es='yuca blanca (se come cocida, frita o en fariña)'
+    kept pairs: [('mandioca branca (comida cozida', 'yuca blanca')]
+    discarded pt (extra, no es match): ['frita ou em farinha)']
+  id=8634
+    original pt='visitante, turista, turista'  es='visitante, turista'
+    kept pairs: [('visitante', 'visitante'), ('turista', 'turista')]
+    discarded pt (extra, no es match): ['turista']
+  id=8635
+    original pt='adversário, inimigo, adversário'  es='adversario, enemigo'
+    kept pairs: [('adversário', 'adversario'), ('inimigo', 'enemigo')]
+    discarded pt (extra, no es match): ['adversário']
+  id=8659
+    original pt='promessa, compromisso, compromisso'  es='promesa, compromiso'
+    kept pairs: [('promessa', 'promesa'), ('compromisso', 'compromiso')]
+    discarded pt (extra, no es match): ['compromisso']
+  id=8660
+    original pt='acordo, pacto, acordo'  es='convenio, pacto'
+    kept pairs: [('acordo', 'convenio'), ('pacto', 'pacto')]
+    discarded pt (extra, no es match): ['acordo']
+  id=8681
+    original pt='leste'  es='oriente, este'
+    kept pairs: [('leste', 'oriente')]
+    discarded es (extra, no pt match): ['este']
+  id=8719
+    original pt='sagrado, santo, sagrada'  es='sagrado, santo'
+    kept pairs: [('sagrado', 'sagrado'), ('santo', 'santo')]
+    discarded pt (extra, no es match): ['sagrada']
+  id=8765
+    original pt='clamar, gritar, gritar'  es='clamar, gritar'
+    kept pairs: [('clamar', 'clamar'), ('gritar', 'gritar')]
+    discarded pt (extra, no es match): ['gritar']
+  id=8802
+    original pt='renovado, reparado, restaurado'  es='renovado, reparado'
+    kept pairs: [('renovado', 'renovado'), ('reparado', 'reparado')]
+    discarded pt (extra, no es match): ['restaurado']
+  id=8804
+    original pt='renovar, reconstruir, renovar'  es='renovar, reconstruir'
+    kept pairs: [('renovar', 'renovar'), ('reconstruir', 'reconstruir')]
+    discarded pt (extra, no es match): ['renovar']
+  id=8845
+    original pt='canção, canto, canto'  es='canción, canto'
+    kept pairs: [('canção', 'canción'), ('canto', 'canto')]
+    discarded pt (extra, no es match): ['canto']
+  id=8847
+    original pt='músico, compositor, cantor'  es='músico, compositor'
+    kept pairs: [('músico', 'músico'), ('compositor', 'compositor')]
+    discarded pt (extra, no es match): ['cantor']
+  id=8848
+    original pt='cancioneiro; livro de cânticos'  es='cancionero; himnario, corario'
+    kept pairs: [('cancioneiro; livro de cânticos', 'cancionero; himnario')]
+    discarded es (extra, no pt match): ['corario']
+  id=8878
+    original pt='bandeira, bandeira, bandeira'  es='bandera, pabellón'
+    kept pairs: [('bandeira', 'bandera'), ('bandeira', 'pabellón')]
+    discarded pt (extra, no es match): ['bandeira']
+  id=8922
+    original pt='cada um dos cursos, cada lição'  es='cada uno de los cursos, cada lección'
+    kept pairs: [('cada um dos cursos', 'cada uno de los cursos, cada lección')]
+    discarded pt (extra, no es match): ['cada lição']
+  id=8926
+    original pt='monte, conjunto, conjunto'  es='montón, conjunto'
+    kept pairs: [('monte', 'montón'), ('conjunto', 'conjunto')]
+    discarded pt (extra, no es match): ['conjunto']
+  id=8986
+    original pt='E avarento, mesquinho.'  es='hombre tacaño (mezquino)'
+    kept pairs: [('E avarento', 'hombre tacaño')]
+    discarded pt (extra, no es match): ['mesquinho.']
+  id=9054
+    original pt='crescido, maduro, adulto'  es='crecido, maduro'
+    kept pairs: [('crescido', 'crecido'), ('maduro', 'maduro')]
+    discarded pt (extra, no es match): ['adulto']
+  id=9094
+    original pt='aquele, aquela, aquilo, aquela, aquele (mesmo, coisa de gênero neutro)'  es='ése, ésa, eso, aquél, aquélla, aquello (mismo, cosa de género neutro)'
+    kept pairs: [('aquele', 'ése'), ('aquela', 'ésa'), ('aquilo', 'eso'), ('aquela', 'aquél'), ('aquele (mesmo', 'aquélla'), ('coisa de gênero neutro)', 'aquello (mismo')]
+    discarded es (extra, no pt match): ['cosa de género neutro)']
+  id=9160
+    original pt='morte, morte, morte'  es='muerte, fallecimiento'
+    kept pairs: [('morte', 'muerte'), ('morte', 'fallecimiento')]
+    discarded pt (extra, no es match): ['morte']
+  id=9174
+    original pt='oração, prece, prece'  es='oración, rezo'
+    kept pairs: [('oração', 'oración'), ('prece', 'rezo')]
+    discarded pt (extra, no es match): ['prece']
+
+3. DUPLICATES DROPPED -- word_pairs: 51, phrases: 4
+------------------------------------------------------------
+  [word_pairs] id=333 duplicate of id=332
+  [word_pairs] id=723_syn1 duplicate of id=710_syn1
+  [word_pairs] id=723_syn2 duplicate of id=710_syn2
+  [word_pairs] id=841 duplicate of id=840
+  [word_pairs] id=1130 duplicate of id=1128
+  [word_pairs] id=1315_syn1 duplicate of id=1314_syn1
+  [word_pairs] id=1315_syn2 duplicate of id=1314_syn2
+  [word_pairs] id=1315_syn3 duplicate of id=1314_syn3
+  [word_pairs] id=1315_syn4 duplicate of id=1314_syn4
+  [word_pairs] id=2325 duplicate of id=2305_syn1
+  [word_pairs] id=2654 duplicate of id=2653
+  [word_pairs] id=2959 duplicate of id=2946
+  [word_pairs] id=3350 duplicate of id=3348_syn3
+  [word_pairs] id=3371 duplicate of id=1328
+  [word_pairs] id=3955_syn1 duplicate of id=2644_syn2
+  [word_pairs] id=3955_syn2 duplicate of id=2644_syn1
+  [word_pairs] id=4045_syn1 duplicate of id=4043_syn1
+  [word_pairs] id=4045_syn2 duplicate of id=4043_syn2
+  [word_pairs] id=4381 duplicate of id=3678_syn1
+  [word_pairs] id=4625 duplicate of id=3067
+  [word_pairs] id=4797 duplicate of id=3822_syn2
+  [word_pairs] id=4800 duplicate of id=3830_syn1
+  [word_pairs] id=4978 duplicate of id=4626
+  [word_pairs] id=6904 duplicate of id=3053
+  [word_pairs] id=7010 duplicate of id=5993
+  [word_pairs] id=7252_syn1 duplicate of id=3703_syn1
+  [word_pairs] id=7252_syn2 duplicate of id=3703_syn2
+  [word_pairs] id=7475 duplicate of id=7474
+  [word_pairs] id=7820 duplicate of id=4356
+  [word_pairs] id=8051_syn1 duplicate of id=8049_syn1
+  [word_pairs] id=8051_syn2 duplicate of id=8049_syn2
+  [word_pairs] id=8129 duplicate of id=4421
+  [word_pairs] id=8183_syn1 duplicate of id=8173_syn1
+  [word_pairs] id=8183_syn2 duplicate of id=8173_syn2
+  [word_pairs] id=8274 duplicate of id=2413
+  [word_pairs] id=8280 duplicate of id=821
+  [word_pairs] id=8292_syn1 duplicate of id=3704_syn2
+  [word_pairs] id=8292_syn2 duplicate of id=3704_syn1
+  [word_pairs] id=8329 duplicate of id=4626
+  [word_pairs] id=8330 duplicate of id=3067
+  [word_pairs] id=8466 duplicate of id=8465
+  [word_pairs] id=8502 duplicate of id=6563
+  [word_pairs] id=8590_syn1 duplicate of id=7011_syn1
+  [word_pairs] id=8590_syn2 duplicate of id=7011_syn2
+  [word_pairs] id=8647 duplicate of id=8646
+  [word_pairs] id=8648_syn1 duplicate of id=7716
+  [word_pairs] id=8860 duplicate of id=8852
+  [word_pairs] id=9075_syn3 duplicate of id=9074_syn3
+  [word_pairs] id=9076_syn1 duplicate of id=9074_syn1
+  [word_pairs] id=9081_syn1 duplicate of id=9078_syn1
+  [word_pairs] id=9081_syn2 duplicate of id=9078_syn2
+  [phrases] id=6630 duplicate of id=5430
+  [phrases] id=6632 duplicate of id=5225
+  [phrases] id=7064 duplicate of id=6631
+  [phrases] id=7473 duplicate of id=7471
